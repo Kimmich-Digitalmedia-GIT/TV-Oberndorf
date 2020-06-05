@@ -337,12 +337,6 @@ h6 {
     transition: transform .6s cubic-bezier(.215, .61, .355, 1), -webkit-transform .6s cubic-bezier(.215, .61, .355, 1);
 }
 
-.dom-is-loading .c-header-home_heading_line {
-    -webkit-transform: translateY(-75vh);
-    -ms-transform: translateY(-75vh);
-    transform: translateY(-75vh);
-}
-
 .c-header-home_heading_line:nth-child(1) {
     transition-delay: 1.78s;
 }
