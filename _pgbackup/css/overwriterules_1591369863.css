@@ -396,7 +396,6 @@ h6 {
 }
 
 /* The equal-height Columns */
-
 .tmg-equalheight-col {
     display: flex;
     flex-direction: column;
@@ -419,7 +418,6 @@ h6 {
 }
 
 .tmg-eh-content-3 {
-
     width: 128px;
 }
 
