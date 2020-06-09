@@ -327,8 +327,6 @@ h6 {
     flex-direction: column;
 }
 
-/* Fade-In CSS 
-   ------------------------------------------------------------------------------- */
 /* make keyframes that tell the start state and the end state of our object */
 @-webkit-keyframes fadeIn {
     from {
@@ -397,8 +395,7 @@ h6 {
     animation-delay: 1.9s;
 }
 
-/* The equal-height Columns 
-   ------------------------------------------------------------------------------- */
+/* The equal-height Columns */
 .tmg-equalheight-col {
     display: flex;
     flex-direction: column;
@@ -434,8 +431,6 @@ h6 {
     height: 32px;
 }
 
-/* The Hover-effect on Contact Boxes 
-   ------------------------------------------------------------------------------- */
 .box-hover {
     transition: all 500ms ease-in-out;
     -webkit-transition: all 500ms ease-in-out;
