@@ -397,12 +397,6 @@ h6 {
     animation-delay: 1.9s;
 }
 
-.fade-in.four {
-    -webkit-animation-delay: 2.5s;
-    -moz-animation-delay: 2.5s;
-    animation-delay: 2.5s;
-}
-
 /* The equal-height Columns 
    ------------------------------------------------------------------------------- */
 .tmg-equalheight-col {
