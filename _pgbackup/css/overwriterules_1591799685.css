@@ -427,8 +427,18 @@ h6 {
     width: 100%;
 }
 
+.tmg-eh-content-3 {
+    width: 128px;
+}
+
 .tmg-eh-content-3-1 {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
     width: 100%;
+    height: 32px;
 }
 
 /* The Hover-effect on Contact Boxes 
