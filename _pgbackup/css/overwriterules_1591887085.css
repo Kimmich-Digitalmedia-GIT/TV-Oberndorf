@@ -453,21 +453,14 @@ h6 {
 
 /* Inline Styles turned to classes 
    ------------------------------------------------------------------------------- */
-/* index.html */
 .header-padding_top {
     padding-top: 62px;
 }
 
-.center-content_flex--column {
+/* Index */
+.center-content_flex {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.center-content_flex--row {
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
 }
