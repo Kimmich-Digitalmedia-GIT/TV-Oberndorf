@@ -477,22 +477,6 @@ h6 {
     align-items: center;
 }
 
-/* Pricing Table */
-/* --------------- */
-.pricing-table {
-    zoom: 1;
-}
-
-.pricing-table:before,
-.pricing-table:after {
-    content: "";
-    display: table;
-}
-
-.pricing-table:after {
-    clear: both;
-}
-
 /* --------------- */
 .pricing-table .header {
     font-size: 20px;
