@@ -289,11 +289,12 @@ h6 {
    End of Slick Carousel */
 /* Uncomment/Adjust the following lines for controlling the Back-To-Top Appearance 
    ------------------------------------------------------------------------------- */
-/* .back-to-top:hover {
-    background-color: #B71C1C;
+.back-to-top:hover {
+    background-color: #f9a825;
     color: #fff;
     opacity: 1;
-} */
+}
+
 /* --------------------- 
    End of Back-To-Top */
 /* Uncomment/Adjust the following lines for changing the MagicTable stuff 
@@ -327,6 +328,8 @@ h6 {
     flex-direction: column;
 }
 
+/* Fade-In CSS 
+   ------------------------------------------------------------------------------- */
 /* make keyframes that tell the start state and the end state of our object */
 @-webkit-keyframes fadeIn {
     from {
@@ -395,7 +398,14 @@ h6 {
     animation-delay: 1.9s;
 }
 
-/* The equal-height Columns */
+.fade-in.four {
+    -webkit-animation-delay: 2.5s;
+    -moz-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+
+/* The equal-height Columns 
+   ------------------------------------------------------------------------------- */
 .tmg-equalheight-col {
     display: flex;
     flex-direction: column;
@@ -408,7 +418,6 @@ h6 {
 
 .tmg-eh-content-2 {
     flex: 1 1 0%;
-    padding: 16px;
 }
 
 .tmg-eh-content-2-1 {
@@ -418,18 +427,124 @@ h6 {
     width: 100%;
 }
 
-.tmg-eh-content-3 {
-    padding: 16px;
-    width: 128px;
-}
-
 .tmg-eh-content-3-1 {
-    background-color: rgba(0, 0, 0, 0.3);
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    border-bottom-right-radius: 2px;
-    border-bottom-left-radius: 2px;
     width: 100%;
-    height: 32px;
 }
 
+/* The Hover-effect on Contact Boxes 
+   ------------------------------------------------------------------------------- */
+.box-hover {
+    transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    cursor: pointer;
+}
+
+.box-hover:hover,
+.box-hover:focus {
+    transform: translate(0, -15px);
+    -webkit-transform: translate(0, -15px);
+    -ms-transform: translate(0, -15px);
+    -webkit-box-shadow: 0px 7px 0px 0px #f9a825;
+    -moz-box-shadow: 0px 7px 0px 0px #f9a825;
+    box-shadow: 0px 7px 0px 0px #f9a825;
+}
+
+/* Inline Styles turned to classes 
+   ------------------------------------------------------------------------------- */
+/* index.html */
+.header-padding_top {
+    padding-top: 62px;
+}
+
+.center-content_flex--column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-content_flex--row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-illustration_flex {
+    display: flex;
+    align-items: center;
+}
+
+/* Pricing Table */
+/* --------------- */
+.pricing-table {
+    zoom: 1;
+}
+
+.pricing-table:before,
+.pricing-table:after {
+    content: "";
+    display: table;
+}
+
+.pricing-table:after {
+    clear: both;
+}
+
+/* --------------- */
+/* --------------- */
+.pricing-table .header {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 8px solid;
+    background-color: #eee;
+    background-image: linear-gradient(#fff, #eee);
+}
+
+.pricing-table .header:after {
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    content: '';
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAADCAYAAABfwxXFAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDpGOEE3MTBFRDVCQ0NFMTExODcxMEJBRjhFNUY2ODdCRSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpGMjQxOTc0MUNFNUUxMUUxQjczN0Q4QzY3MDc4MjkxOCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpGMjQxOTc0MENFNUUxMUUxQjczN0Q4QzY3MDc4MjkxOCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3MiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo0RDMxQTYxREVCQ0RFMTExQUI1NjlDMTg5OTUyMzNDNyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGOEE3MTBFRDVCQ0NFMTExODcxMEJBRjhFNUY2ODdCRSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqOCuVUAAAArSURBVHjaYvj//z8DFPMA8UkoDRZjQJJs/w8B7eiSKkD8Eyr5E8pnAAgwAIiWROlhTpC8AAAAAElFTkSuQmCC);
+}
+
+.pricing-table .popular-plan .header {
+}
+
+.pricing-table .plan1 .header {
+    border-bottom-color: #B3E03F;
+}
+
+.pricing-table .plan2 .header {
+    border-bottom-color: #7BD553;
+}
+
+.pricing-table .plan3 .header {
+    border-bottom-color: #3AD5A0;
+}
+
+.pricing-table .plan4 .header {
+    border-bottom-color: #45D0DA;
+}
+
+/* --------------- */
+.pricing-table .price {
+    font-size: 45px;
+}
+
+.pricing-table .monthly {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+/* --------------- */
+.pricing-table ul {
+    list-style: none;
+}
