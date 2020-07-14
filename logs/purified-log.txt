@@ -1,0 +1,1467 @@
+
+    ________________________________________________
+    |
+    |   PurifyCSS has reduced the file size by ~ 54.9%  
+    |
+    ________________________________________________
+    
+
+    ________________________________________________
+    |
+    |   PurifyCSS - Rejected selectors:  
+    |   applet
+    |	object
+    |	iframe
+    |	blockquote
+    |	pre
+    |	abbr
+    |	acronym
+    |	address
+    |	big
+    |	cite
+    |	code
+    |	del
+    |	dfn
+    |	em
+    |	ins
+    |	kbd
+    |	q
+    |	s
+    |	samp
+    |	strike
+    |	strong
+    |	sub
+    |	sup
+    |	tt
+    |	dl
+    |	dt
+    |	dd
+    |	ol
+    |	fieldset
+    |	form
+    |	legend
+    |	caption
+    |	tbody
+    |	tfoot
+    |	thead
+    |	tr
+    |	th
+    |	td
+    |	aside
+    |	canvas
+    |	details
+    |	embed
+    |	figure
+    |	figcaption
+    |	hgroup
+    |	output
+    |	ruby
+    |	summary
+    |	time
+    |	mark
+    |	audio
+    |	video
+    |	aside
+    |	details
+    |	figcaption
+    |	figure
+    |	hgroup
+    |	summary
+    |	ol
+    |	blockquote
+    |	q
+    |	blockquote:before
+    |	blockquote:after
+    |	q:before
+    |	q:after
+    |	audio
+    |	canvas
+    |	progress
+    |	video
+    |	audio:not([controls])
+    |	.tmg__text-justifyLeft
+    |	.tmg__text-justifyRight
+    |	.fontsize__adjust-200
+    |	.fontsize__adjust-175
+    |	.fontsize__adjust-150
+    |	.fontsize__adjust-125
+    |	.fontsize__adjust-100
+    |	.tmg--fixed-spacer
+    |	.tmg--fixed-spacer
+    |	.pg-empty-placeholder
+    |	.tmg-five > *
+    |	.tmg-seven > *
+    |	.tmg-eight > *
+    |	.tmg-nine > *
+    |	.tmg-ten > *
+    |	.tmg-eleven > *
+    |	.tmg-twelve > *
+    |	.tmg-five-500 > *
+    |	.tmg-seven-500 > *
+    |	.tmg-eight-500 > *
+    |	.tmg-nine-500 > *
+    |	.tmg-ten-500 > *
+    |	.tmg-eleven-500 > *
+    |	.tmg-twelve-500 > *
+    |	.tmg-five-600 > *
+    |	.tmg-seven-600 > *
+    |	.tmg-eight-600 > *
+    |	.tmg-nine-600 > *
+    |	.tmg-ten-600 > *
+    |	.tmg-eleven-600 > *
+    |	.tmg-twelve-600 > *
+    |	.tmg-five-700 > *
+    |	.tmg-seven-700 > *
+    |	.tmg-eight-700 > *
+    |	.tmg-nine-700 > *
+    |	.tmg-ten-700 > *
+    |	.tmg-eleven-700 > *
+    |	.tmg-twelve-700 > *
+    |	.tmg-five-800 > *
+    |	.tmg-seven-800 > *
+    |	.tmg-eight-800 > *
+    |	.tmg-nine-800 > *
+    |	.tmg-ten-800 > *
+    |	.tmg-eleven-800 > *
+    |	.tmg-twelve-800 > *
+    |	.tmg-five-900 > *
+    |	.tmg-seven-900 > *
+    |	.tmg-eight-900 > *
+    |	.tmg-nine-900 > *
+    |	.tmg-ten-900 > *
+    |	.tmg-eleven-900 > *
+    |	.tmg-twelve-900 > *
+    |	.tmg-five-1000 > *
+    |	.tmg-seven-1000 > *
+    |	.tmg-eight-1000 > *
+    |	.tmg-nine-1000 > *
+    |	.tmg-ten-1000 > *
+    |	.tmg-eleven-1000 > *
+    |	.tmg-twelve-1000 > *
+    |	.tmg-five-1100 > *
+    |	.tmg-seven-1100 > *
+    |	.tmg-eight-1100 > *
+    |	.tmg-nine-1100 > *
+    |	.tmg-ten-1100 > *
+    |	.tmg-eleven-1100 > *
+    |	.tmg-twelve-1100 > *
+    |	.tmg-five-1200 > *
+    |	.tmg-seven-1200 > *
+    |	.tmg-eight-1200 > *
+    |	.tmg-nine-1200 > *
+    |	.tmg-ten-1200 > *
+    |	.tmg-eleven-1200 > *
+    |	.tmg-twelve-1200 > *
+    |	.tmg-five-1300 > *
+    |	.tmg-seven-1300 > *
+    |	.tmg-eight-1300 > *
+    |	.tmg-nine-1300 > *
+    |	.tmg-ten-1300 > *
+    |	.tmg-eleven-1300 > *
+    |	.tmg-twelve-1300 > *
+    |	.tmg-five-1400 > *
+    |	.tmg-seven-1400 > *
+    |	.tmg-eight-1400 > *
+    |	.tmg-nine-1400 > *
+    |	.tmg-ten-1400 > *
+    |	.tmg-eleven-1400 > *
+    |	.tmg-twelve-1400 > *
+    |	.tmg-five-1500 > *
+    |	.tmg-seven-1500 > *
+    |	.tmg-eight-1500 > *
+    |	.tmg-nine-1500 > *
+    |	.tmg-ten-1500 > *
+    |	.tmg-eleven-1500 > *
+    |	.tmg-twelve-1500 > *
+    |	.tmg-five-1600 > *
+    |	.tmg-seven-1600 > *
+    |	.tmg-eight-1600 > *
+    |	.tmg-nine-1600 > *
+    |	.tmg-ten-1600 > *
+    |	.tmg-eleven-1600 > *
+    |	.tmg-twelve-1600 > *
+    |	.tmg-five-1700 > *
+    |	.tmg-seven-1700 > *
+    |	.tmg-eight-1700 > *
+    |	.tmg-nine-1700 > *
+    |	.tmg-ten-1700 > *
+    |	.tmg-eleven-1700 > *
+    |	.tmg-twelve-1700 > *
+    |	.tmg-five-1800 > *
+    |	.tmg-seven-1800 > *
+    |	.tmg-eight-1800 > *
+    |	.tmg-nine-1800 > *
+    |	.tmg-ten-1800 > *
+    |	.tmg-eleven-1800 > *
+    |	.tmg-twelve-1800 > *
+    |	.tmg-five-1900 > *
+    |	.tmg-seven-1900 > *
+    |	.tmg-eight-1900 > *
+    |	.tmg-nine-1900 > *
+    |	.tmg-ten-1900 > *
+    |	.tmg-eleven-1900 > *
+    |	.tmg-twelve-1900 > *
+    |	.tmg-five-2000 > *
+    |	.tmg-seven-2000 > *
+    |	.tmg-eight-2000 > *
+    |	.tmg-nine-2000 > *
+    |	.tmg-ten-2000 > *
+    |	.tmg-eleven-2000 > *
+    |	.tmg-twelve-2000 > *
+    |	.tmg-full
+    |	.tmg-fourth
+    |	.tmg-three-fourth
+    |	.tmg-fifth
+    |	.tmg-two-fifth
+    |	.tmg-three-fifth
+    |	.tmg-four-fifth
+    |	.tmg-sixth
+    |	.tmg-full-500
+    |	.tmg-fourth-500
+    |	.tmg-three-fourth-500
+    |	.tmg-fifth-500
+    |	.tmg-two-fifth-500
+    |	.tmg-three-fifth-500
+    |	.tmg-four-fifth-500
+    |	.tmg-sixth-500
+    |	.tmg-full-600
+    |	.tmg-fourth-600
+    |	.tmg-three-fourth-600
+    |	.tmg-fifth-600
+    |	.tmg-two-fifth-600
+    |	.tmg-three-fifth-600
+    |	.tmg-four-fifth-600
+    |	.tmg-sixth-600
+    |	.tmg-full-700
+    |	.tmg-fourth-700
+    |	.tmg-three-fourth-700
+    |	.tmg-fifth-700
+    |	.tmg-two-fifth-700
+    |	.tmg-three-fifth-700
+    |	.tmg-four-fifth-700
+    |	.tmg-sixth-700
+    |	.tmg-full-800
+    |	.tmg-fourth-800
+    |	.tmg-three-fourth-800
+    |	.tmg-fifth-800
+    |	.tmg-two-fifth-800
+    |	.tmg-three-fifth-800
+    |	.tmg-four-fifth-800
+    |	.tmg-sixth-800
+    |	.tmg-full-900
+    |	.tmg-fourth-900
+    |	.tmg-three-fourth-900
+    |	.tmg-fifth-900
+    |	.tmg-two-fifth-900
+    |	.tmg-three-fifth-900
+    |	.tmg-four-fifth-900
+    |	.tmg-sixth-900
+    |	.tmg-full-1000
+    |	.tmg-fourth-1000
+    |	.tmg-three-fourth-1000
+    |	.tmg-fifth-1000
+    |	.tmg-two-fifth-1000
+    |	.tmg-three-fifth-1000
+    |	.tmg-four-fifth-1000
+    |	.tmg-sixth-1000
+    |	.tmg-full-1100
+    |	.tmg-fourth-1100
+    |	.tmg-three-fourth-1100
+    |	.tmg-fifth-1100
+    |	.tmg-two-fifth-1100
+    |	.tmg-three-fifth-1100
+    |	.tmg-four-fifth-1100
+    |	.tmg-sixth-1100
+    |	.tmg-full-1200
+    |	.tmg-fourth-1200
+    |	.tmg-three-fourth-1200
+    |	.tmg-fifth-1200
+    |	.tmg-two-fifth-1200
+    |	.tmg-three-fifth-1200
+    |	.tmg-four-fifth-1200
+    |	.tmg-sixth-1200
+    |	.tmg-full-1300
+    |	.tmg-fourth-1300
+    |	.tmg-three-fourth-1300
+    |	.tmg-fifth-1300
+    |	.tmg-two-fifth-1300
+    |	.tmg-three-fifth-1300
+    |	.tmg-four-fifth-1300
+    |	.tmg-sixth-1300
+    |	.tmg-full-1400
+    |	.tmg-fourth-1400
+    |	.tmg-three-fourth-1400
+    |	.tmg-fifth-1400
+    |	.tmg-two-fifth-1400
+    |	.tmg-three-fifth-1400
+    |	.tmg-four-fifth-1400
+    |	.tmg-sixth-1400
+    |	.tmg-full-1500
+    |	.tmg-fourth-1500
+    |	.tmg-three-fourth-1500
+    |	.tmg-fifth-1500
+    |	.tmg-two-fifth-1500
+    |	.tmg-three-fifth-1500
+    |	.tmg-four-fifth-1500
+    |	.tmg-sixth-1500
+    |	.tmg-full-1600
+    |	.tmg-fourth-1600
+    |	.tmg-three-fourth-1600
+    |	.tmg-fifth-1600
+    |	.tmg-two-fifth-1600
+    |	.tmg-three-fifth-1600
+    |	.tmg-four-fifth-1600
+    |	.tmg-sixth-1600
+    |	.tmg-full-1700
+    |	.tmg-fourth-1700
+    |	.tmg-three-fourth-1700
+    |	.tmg-fifth-1700
+    |	.tmg-two-fifth-1700
+    |	.tmg-three-fifth-1700
+    |	.tmg-four-fifth-1700
+    |	.tmg-sixth-1700
+    |	.tmg-full-1800
+    |	.tmg-fourth-1800
+    |	.tmg-three-fourth-1800
+    |	.tmg-fifth-1800
+    |	.tmg-two-fifth-1800
+    |	.tmg-three-fifth-1800
+    |	.tmg-four-fifth-1800
+    |	.tmg-sixth-1800
+    |	.tmg-full-1900
+    |	.tmg-fourth-1900
+    |	.tmg-three-fourth-1900
+    |	.tmg-fifth-1900
+    |	.tmg-two-fifth-1900
+    |	.tmg-three-fifth-1900
+    |	.tmg-four-fifth-1900
+    |	.tmg-sixth-1900
+    |	.tmg-full-2000
+    |	.tmg-fourth-2000
+    |	.tmg-three-fourth-2000
+    |	.tmg-fifth-2000
+    |	.tmg-two-fifth-2000
+    |	.tmg-three-fifth-2000
+    |	.tmg-four-fifth-2000
+    |	.tmg-sixth-2000
+    |	.tmg-off-half
+    |	.tmg-off-third
+    |	.tmg-off-two-third
+    |	.tmg-off-fourth
+    |	.tmg-off-three-fourth
+    |	.tmg-off-fifth
+    |	.tmg-off-two-fifth
+    |	.tmg-off-three-fifth
+    |	.tmg-off-four-fifth
+    |	.tmg-off-sixth
+    |	.tmg-off-none
+    |	.tmg-off-full-500
+    |	.tmg-off-half-500
+    |	.tmg-off-third-500
+    |	.tmg-off-two-third-500
+    |	.tmg-off-fourth-500
+    |	.tmg-off-three-fourth-500
+    |	.tmg-off-fifth-500
+    |	.tmg-off-two-fifth-500
+    |	.tmg-off-three-fifth-500
+    |	.tmg-off-four-fifth-500
+    |	.tmg-off-sixth-500
+    |	.tmg-off-none-500
+    |	.tmg-off-full-600
+    |	.tmg-off-half-600
+    |	.tmg-off-third-600
+    |	.tmg-off-two-third-600
+    |	.tmg-off-fourth-600
+    |	.tmg-off-three-fourth-600
+    |	.tmg-off-fifth-600
+    |	.tmg-off-two-fifth-600
+    |	.tmg-off-three-fifth-600
+    |	.tmg-off-four-fifth-600
+    |	.tmg-off-sixth-600
+    |	.tmg-off-none-600
+    |	.tmg-off-full-700
+    |	.tmg-off-half-700
+    |	.tmg-off-third-700
+    |	.tmg-off-two-third-700
+    |	.tmg-off-fourth-700
+    |	.tmg-off-three-fourth-700
+    |	.tmg-off-fifth-700
+    |	.tmg-off-two-fifth-700
+    |	.tmg-off-three-fifth-700
+    |	.tmg-off-four-fifth-700
+    |	.tmg-off-sixth-700
+    |	.tmg-off-none-700
+    |	.tmg-off-full-800
+    |	.tmg-off-half-800
+    |	.tmg-off-third-800
+    |	.tmg-off-two-third-800
+    |	.tmg-off-fourth-800
+    |	.tmg-off-three-fourth-800
+    |	.tmg-off-fifth-800
+    |	.tmg-off-two-fifth-800
+    |	.tmg-off-three-fifth-800
+    |	.tmg-off-four-fifth-800
+    |	.tmg-off-sixth-800
+    |	.tmg-off-none-800
+    |	.tmg-off-full-900
+    |	.tmg-off-half-900
+    |	.tmg-off-third-900
+    |	.tmg-off-two-third-900
+    |	.tmg-off-fourth-900
+    |	.tmg-off-three-fourth-900
+    |	.tmg-off-fifth-900
+    |	.tmg-off-two-fifth-900
+    |	.tmg-off-three-fifth-900
+    |	.tmg-off-four-fifth-900
+    |	.tmg-off-sixth-900
+    |	.tmg-off-none-900
+    |	.tmg-off-full-1000
+    |	.tmg-off-half-1000
+    |	.tmg-off-third-1000
+    |	.tmg-off-two-third-1000
+    |	.tmg-off-fourth-1000
+    |	.tmg-off-three-fourth-1000
+    |	.tmg-off-fifth-1000
+    |	.tmg-off-two-fifth-1000
+    |	.tmg-off-three-fifth-1000
+    |	.tmg-off-four-fifth-1000
+    |	.tmg-off-sixth-1000
+    |	.tmg-off-none-1000
+    |	.tmg-off-full-1100
+    |	.tmg-off-half-1100
+    |	.tmg-off-third-1100
+    |	.tmg-off-two-third-1100
+    |	.tmg-off-fourth-1100
+    |	.tmg-off-three-fourth-1100
+    |	.tmg-off-fifth-1100
+    |	.tmg-off-two-fifth-1100
+    |	.tmg-off-three-fifth-1100
+    |	.tmg-off-four-fifth-1100
+    |	.tmg-off-sixth-1100
+    |	.tmg-off-none-1100
+    |	.tmg-off-full-1200
+    |	.tmg-off-half-1200
+    |	.tmg-off-third-1200
+    |	.tmg-off-two-third-1200
+    |	.tmg-off-fourth-1200
+    |	.tmg-off-three-fourth-1200
+    |	.tmg-off-fifth-1200
+    |	.tmg-off-two-fifth-1200
+    |	.tmg-off-three-fifth-1200
+    |	.tmg-off-four-fifth-1200
+    |	.tmg-off-sixth-1200
+    |	.tmg-off-none-1200
+    |	.tmg-off-full-1300
+    |	.tmg-off-half-1300
+    |	.tmg-off-third-1300
+    |	.tmg-off-two-third-1300
+    |	.tmg-off-fourth-1300
+    |	.tmg-off-three-fourth-1300
+    |	.tmg-off-fifth-1300
+    |	.tmg-off-two-fifth-1300
+    |	.tmg-off-three-fifth-1300
+    |	.tmg-off-four-fifth-1300
+    |	.tmg-off-sixth-1300
+    |	.tmg-off-none-1300
+    |	.tmg-off-full-1400
+    |	.tmg-off-half-1400
+    |	.tmg-off-third-1400
+    |	.tmg-off-two-third-1400
+    |	.tmg-off-fourth-1400
+    |	.tmg-off-three-fourth-1400
+    |	.tmg-off-fifth-1400
+    |	.tmg-off-two-fifth-1400
+    |	.tmg-off-three-fifth-1400
+    |	.tmg-off-four-fifth-1400
+    |	.tmg-off-sixth-1400
+    |	.tmg-off-none-1400
+    |	.tmg-off-full-1500
+    |	.tmg-off-half-1500
+    |	.tmg-off-third-1500
+    |	.tmg-off-two-third-1500
+    |	.tmg-off-fourth-1500
+    |	.tmg-off-three-fourth-1500
+    |	.tmg-off-fifth-1500
+    |	.tmg-off-two-fifth-1500
+    |	.tmg-off-three-fifth-1500
+    |	.tmg-off-four-fifth-1500
+    |	.tmg-off-sixth-1500
+    |	.tmg-off-none-1500
+    |	.tmg-off-full-1600
+    |	.tmg-off-half-1600
+    |	.tmg-off-third-1600
+    |	.tmg-off-two-third-1600
+    |	.tmg-off-fourth-1600
+    |	.tmg-off-three-fourth-1600
+    |	.tmg-off-fifth-1600
+    |	.tmg-off-two-fifth-1600
+    |	.tmg-off-three-fifth-1600
+    |	.tmg-off-four-fifth-1600
+    |	.tmg-off-sixth-1600
+    |	.tmg-off-none-1600
+    |	.tmg-off-full-1700
+    |	.tmg-off-half-1700
+    |	.tmg-off-third-1700
+    |	.tmg-off-two-third-1700
+    |	.tmg-off-fourth-1700
+    |	.tmg-off-three-fourth-1700
+    |	.tmg-off-fifth-1700
+    |	.tmg-off-two-fifth-1700
+    |	.tmg-off-three-fifth-1700
+    |	.tmg-off-four-fifth-1700
+    |	.tmg-off-sixth-1700
+    |	.tmg-off-none-1700
+    |	.tmg-off-full-1800
+    |	.tmg-off-half-1800
+    |	.tmg-off-third-1800
+    |	.tmg-off-two-third-1800
+    |	.tmg-off-fourth-1800
+    |	.tmg-off-three-fourth-1800
+    |	.tmg-off-fifth-1800
+    |	.tmg-off-two-fifth-1800
+    |	.tmg-off-three-fifth-1800
+    |	.tmg-off-four-fifth-1800
+    |	.tmg-off-sixth-1800
+    |	.tmg-off-none-1800
+    |	.tmg-off-full-1900
+    |	.tmg-off-half-1900
+    |	.tmg-off-third-1900
+    |	.tmg-off-two-third-1900
+    |	.tmg-off-fourth-1900
+    |	.tmg-off-three-fourth-1900
+    |	.tmg-off-fifth-1900
+    |	.tmg-off-two-fifth-1900
+    |	.tmg-off-three-fifth-1900
+    |	.tmg-off-four-fifth-1900
+    |	.tmg-off-sixth-1900
+    |	.tmg-off-none-1900
+    |	.tmg-off-full-2000
+    |	.tmg-off-half-2000
+    |	.tmg-off-third-2000
+    |	.tmg-off-two-third-2000
+    |	.tmg-off-fourth-2000
+    |	.tmg-off-three-fourth-2000
+    |	.tmg-off-fifth-2000
+    |	.tmg-off-two-fifth-2000
+    |	.tmg-off-three-fifth-2000
+    |	.tmg-off-four-fifth-2000
+    |	.tmg-off-sixth-2000
+    |	.tmg-off-none-2000
+    |	video
+    |	.tG__img-bg-basic
+    |	.tG-elem-img-bg
+    |	.tG-elem-img-bg
+    |	.tG-elem-img-bg--tl
+    |	.tG-elem-img-bg--tl
+    |	.tG-elem-img-bg--tb
+    |	.tG-elem-img-bg--tb
+    |	.tG-elem-img-bg--hero
+    |	.tG-elem-img-bg--hero
+    |	.tG-elem-img-bg--hero-bottom
+    |	.tG-elem-img-bg--hero-bottom
+    |	img.tG-border-white
+    |	.materialize-red
+    |	.materialize-red-text
+    |	.materialize-red.lighten-5
+    |	.materialize-red-text.text-lighten-5
+    |	.materialize-red.lighten-4
+    |	.mean-container-light .materialize-red.mean-bar
+    |	.mean-container-light .materialize-red.mean-nav
+    |	.materialize-red-text.text-lighten-4
+    |	.materialize-red.lighten-3
+    |	.materialize-red-text.text-lighten-3
+    |	.materialize-red.lighten-2
+    |	.materialize-red-text.text-lighten-2
+    |	.materialize-red.lighten-1
+    |	.materialize-red-text.text-lighten-1
+    |	.materialize-red.darken-1
+    |	.materialize-red-text.text-darken-1
+    |	.materialize-red.darken-2
+    |	.materialize-red-text.text-darken-2
+    |	.materialize-red.darken-3
+    |	.materialize-red-text.text-darken-3
+    |	.materialize-red.darken-4
+    |	.magicnav--dark ul ul.materialize-red
+    |	.materialize-red-text.text-darken-4
+    |	.red
+    |	.red-text
+    |	.red.lighten-5
+    |	.red-text.text-lighten-5
+    |	.red.lighten-4
+    |	.mean-container-light .red.mean-bar
+    |	.mean-container-light .red.mean-nav
+    |	.red-text.text-lighten-4
+    |	.red.lighten-3
+    |	.red-text.text-lighten-3
+    |	.red.lighten-2
+    |	.red-text.text-lighten-2
+    |	.red.lighten-1
+    |	.red-text.text-lighten-1
+    |	.red.darken-1
+    |	.red-text.text-darken-1
+    |	.red.darken-2
+    |	.red-text.text-darken-2
+    |	.red.darken-3
+    |	.red-text.text-darken-3
+    |	.red.darken-4
+    |	.magicnav--dark ul ul.red
+    |	.red-text.text-darken-4
+    |	.red.accent-1
+    |	.red-text.text-accent-1
+    |	.red.accent-2
+    |	.red-text.text-accent-2
+    |	.red.accent-3
+    |	.red-text.text-accent-3
+    |	.red.accent-4
+    |	.red-text.text-accent-4
+    |	.pink
+    |	.pink-text
+    |	.pink.lighten-5
+    |	.pink-text.text-lighten-5
+    |	.pink.lighten-4
+    |	.mean-container-light .pink.mean-bar
+    |	.mean-container-light .pink.mean-nav
+    |	.pink-text.text-lighten-4
+    |	.pink.lighten-3
+    |	.pink-text.text-lighten-3
+    |	.pink.lighten-2
+    |	.pink-text.text-lighten-2
+    |	.pink.lighten-1
+    |	.pink-text.text-lighten-1
+    |	.pink.darken-1
+    |	.pink-text.text-darken-1
+    |	.pink.darken-2
+    |	.pink-text.text-darken-2
+    |	.pink.darken-3
+    |	.pink-text.text-darken-3
+    |	.pink.darken-4
+    |	.magicnav--dark ul ul.pink
+    |	.pink-text.text-darken-4
+    |	.pink.accent-1
+    |	.pink-text.text-accent-1
+    |	.pink.accent-2
+    |	.pink-text.text-accent-2
+    |	.pink.accent-3
+    |	.pink-text.text-accent-3
+    |	.pink.accent-4
+    |	.pink-text.text-accent-4
+    |	.purple
+    |	.purple-text
+    |	.purple.lighten-5
+    |	.purple-text.text-lighten-5
+    |	.purple.lighten-4
+    |	.mean-container-light .purple.mean-bar
+    |	.mean-container-light .purple.mean-nav
+    |	.purple-text.text-lighten-4
+    |	.purple.lighten-3
+    |	.purple-text.text-lighten-3
+    |	.purple.lighten-2
+    |	.purple-text.text-lighten-2
+    |	.purple.lighten-1
+    |	.purple-text.text-lighten-1
+    |	.purple.darken-1
+    |	.purple-text.text-darken-1
+    |	.purple.darken-2
+    |	.purple-text.text-darken-2
+    |	.purple.darken-3
+    |	.purple-text.text-darken-3
+    |	.purple.darken-4
+    |	.magicnav--dark ul ul.purple
+    |	.purple-text.text-darken-4
+    |	.purple.accent-1
+    |	.purple-text.text-accent-1
+    |	.purple.accent-2
+    |	.purple-text.text-accent-2
+    |	.purple.accent-3
+    |	.purple-text.text-accent-3
+    |	.purple.accent-4
+    |	.purple-text.text-accent-4
+    |	.deep-purple
+    |	.deep-purple-text
+    |	.deep-purple.lighten-5
+    |	.deep-purple-text.text-lighten-5
+    |	.deep-purple.lighten-4
+    |	.mean-container-light .deep-purple.mean-bar
+    |	.mean-container-light .deep-purple.mean-nav
+    |	.deep-purple-text.text-lighten-4
+    |	.deep-purple.lighten-3
+    |	.deep-purple-text.text-lighten-3
+    |	.deep-purple.lighten-2
+    |	.deep-purple-text.text-lighten-2
+    |	.deep-purple.lighten-1
+    |	.deep-purple-text.text-lighten-1
+    |	.deep-purple.darken-1
+    |	.deep-purple-text.text-darken-1
+    |	.deep-purple.darken-2
+    |	.deep-purple-text.text-darken-2
+    |	.deep-purple.darken-3
+    |	.deep-purple-text.text-darken-3
+    |	.deep-purple.darken-4
+    |	.magicnav--dark ul ul.deep-purple
+    |	.deep-purple-text.text-darken-4
+    |	.deep-purple.accent-1
+    |	.deep-purple-text.text-accent-1
+    |	.deep-purple.accent-2
+    |	.deep-purple-text.text-accent-2
+    |	.deep-purple.accent-3
+    |	.deep-purple-text.text-accent-3
+    |	.deep-purple.accent-4
+    |	.deep-purple-text.text-accent-4
+    |	.indigo
+    |	.indigo-text
+    |	.indigo.lighten-5
+    |	.indigo-text.text-lighten-5
+    |	.indigo.lighten-4
+    |	.mean-container-light .indigo.mean-bar
+    |	.mean-container-light .indigo.mean-nav
+    |	.indigo-text.text-lighten-4
+    |	.indigo.lighten-3
+    |	.indigo-text.text-lighten-3
+    |	.indigo.lighten-2
+    |	.indigo-text.text-lighten-2
+    |	.indigo.lighten-1
+    |	.indigo-text.text-lighten-1
+    |	.indigo.darken-1
+    |	.indigo-text.text-darken-1
+    |	.indigo.darken-2
+    |	.indigo-text.text-darken-2
+    |	.indigo.darken-3
+    |	.indigo-text.text-darken-3
+    |	.indigo.darken-4
+    |	.magicnav--dark ul ul.indigo
+    |	.indigo-text.text-darken-4
+    |	.indigo.accent-1
+    |	.indigo-text.text-accent-1
+    |	.indigo.accent-2
+    |	.indigo-text.text-accent-2
+    |	.indigo.accent-3
+    |	.indigo-text.text-accent-3
+    |	.indigo.accent-4
+    |	.indigo-text.text-accent-4
+    |	.mean-container-light .blue.mean-bar
+    |	.mean-container-light .blue.mean-nav
+    |	.mean-container-light .light-blue.mean-bar
+    |	.mean-container-light .light-blue.mean-nav
+    |	.cyan
+    |	.cyan-text
+    |	.cyan.lighten-5
+    |	.cyan-text.text-lighten-5
+    |	.cyan.lighten-4
+    |	.mean-container-light .cyan.mean-bar
+    |	.mean-container-light .cyan.mean-nav
+    |	.cyan-text.text-lighten-4
+    |	.cyan.lighten-3
+    |	.cyan-text.text-lighten-3
+    |	.cyan.lighten-2
+    |	.cyan-text.text-lighten-2
+    |	.cyan.lighten-1
+    |	.cyan-text.text-lighten-1
+    |	.cyan.darken-1
+    |	.cyan-text.text-darken-1
+    |	.cyan.darken-2
+    |	.cyan-text.text-darken-2
+    |	.cyan.darken-3
+    |	.cyan-text.text-darken-3
+    |	.cyan.darken-4
+    |	.magicnav--dark ul ul.cyan
+    |	.cyan-text.text-darken-4
+    |	.cyan.accent-1
+    |	.cyan-text.text-accent-1
+    |	.cyan.accent-2
+    |	.cyan-text.text-accent-2
+    |	.cyan.accent-3
+    |	.cyan-text.text-accent-3
+    |	.cyan.accent-4
+    |	.cyan-text.text-accent-4
+    |	.teal
+    |	.teal-text
+    |	.teal.lighten-5
+    |	.teal-text.text-lighten-5
+    |	.teal.lighten-4
+    |	.mean-container-light .teal.mean-bar
+    |	.mean-container-light .teal.mean-nav
+    |	.teal-text.text-lighten-4
+    |	.teal.lighten-3
+    |	.teal-text.text-lighten-3
+    |	.teal.lighten-2
+    |	.teal-text.text-lighten-2
+    |	.teal.lighten-1
+    |	.teal-text.text-lighten-1
+    |	.teal.darken-1
+    |	.teal-text.text-darken-1
+    |	.teal.darken-2
+    |	.teal-text.text-darken-2
+    |	.teal.darken-3
+    |	.teal-text.text-darken-3
+    |	.teal.darken-4
+    |	.magicnav--dark ul ul.teal
+    |	.teal-text.text-darken-4
+    |	.teal.accent-1
+    |	.teal-text.text-accent-1
+    |	.teal.accent-2
+    |	.teal-text.text-accent-2
+    |	.teal.accent-3
+    |	.teal-text.text-accent-3
+    |	.teal.accent-4
+    |	.teal-text.text-accent-4
+    |	.green
+    |	.green-text
+    |	.green.lighten-5
+    |	.green-text.text-lighten-5
+    |	.green.lighten-4
+    |	.mean-container-light .green.mean-bar
+    |	.mean-container-light .green.mean-nav
+    |	.green-text.text-lighten-4
+    |	.green.lighten-3
+    |	.green-text.text-lighten-3
+    |	.green.lighten-2
+    |	.green-text.text-lighten-2
+    |	.green.lighten-1
+    |	.green-text.text-lighten-1
+    |	.green.darken-1
+    |	.green-text.text-darken-1
+    |	.green.darken-2
+    |	.green-text.text-darken-2
+    |	.green.darken-3
+    |	.green-text.text-darken-3
+    |	.green.darken-4
+    |	.magicnav--dark ul ul.green
+    |	.green-text.text-darken-4
+    |	.green.accent-1
+    |	.green-text.text-accent-1
+    |	.green.accent-2
+    |	.green-text.text-accent-2
+    |	.green.accent-3
+    |	.green-text.text-accent-3
+    |	.green.accent-4
+    |	.green-text.text-accent-4
+    |	.light-green
+    |	.light-green-text
+    |	.light-green.lighten-5
+    |	.light-green-text.text-lighten-5
+    |	.light-green.lighten-4
+    |	.mean-container-light .light-green.mean-bar
+    |	.mean-container-light .light-green.mean-nav
+    |	.light-green-text.text-lighten-4
+    |	.light-green.lighten-3
+    |	.light-green-text.text-lighten-3
+    |	.light-green.lighten-2
+    |	.light-green-text.text-lighten-2
+    |	.light-green.lighten-1
+    |	.light-green-text.text-lighten-1
+    |	.light-green.darken-1
+    |	.light-green-text.text-darken-1
+    |	.light-green.darken-2
+    |	.light-green-text.text-darken-2
+    |	.light-green.darken-3
+    |	.light-green-text.text-darken-3
+    |	.light-green.darken-4
+    |	.magicnav--dark ul ul.light-green
+    |	.light-green-text.text-darken-4
+    |	.light-green.accent-1
+    |	.light-green-text.text-accent-1
+    |	.light-green.accent-2
+    |	.light-green-text.text-accent-2
+    |	.light-green.accent-3
+    |	.light-green-text.text-accent-3
+    |	.light-green.accent-4
+    |	.light-green-text.text-accent-4
+    |	.lime
+    |	.lime-text
+    |	.lime.lighten-5
+    |	.lime-text.text-lighten-5
+    |	.lime.lighten-4
+    |	.mean-container-light .lime.mean-bar
+    |	.mean-container-light .lime.mean-nav
+    |	.lime-text.text-lighten-4
+    |	.lime.lighten-3
+    |	.lime-text.text-lighten-3
+    |	.lime.lighten-2
+    |	.lime-text.text-lighten-2
+    |	.lime.lighten-1
+    |	.lime-text.text-lighten-1
+    |	.lime.darken-1
+    |	.lime-text.text-darken-1
+    |	.lime.darken-2
+    |	.lime-text.text-darken-2
+    |	.lime.darken-3
+    |	.lime-text.text-darken-3
+    |	.lime.darken-4
+    |	.magicnav--dark ul ul.lime
+    |	.lime-text.text-darken-4
+    |	.lime.accent-1
+    |	.lime-text.text-accent-1
+    |	.lime.accent-2
+    |	.lime-text.text-accent-2
+    |	.lime.accent-3
+    |	.lime-text.text-accent-3
+    |	.lime.accent-4
+    |	.lime-text.text-accent-4
+    |	.mean-container-light .yellow.mean-bar
+    |	.mean-container-light .yellow.mean-nav
+    |	.amber
+    |	.amber-text
+    |	.amber.lighten-5
+    |	.amber-text.text-lighten-5
+    |	.amber.lighten-4
+    |	.mean-container-light .amber.mean-bar
+    |	.mean-container-light .amber.mean-nav
+    |	.amber-text.text-lighten-4
+    |	.amber.lighten-3
+    |	.amber-text.text-lighten-3
+    |	.amber.lighten-2
+    |	.amber-text.text-lighten-2
+    |	.amber.lighten-1
+    |	.amber-text.text-lighten-1
+    |	.amber.darken-1
+    |	.amber-text.text-darken-1
+    |	.amber.darken-2
+    |	.amber-text.text-darken-2
+    |	.amber.darken-3
+    |	.amber-text.text-darken-3
+    |	.amber.darken-4
+    |	.magicnav--dark ul ul.amber
+    |	.amber-text.text-darken-4
+    |	.amber.accent-1
+    |	.amber-text.text-accent-1
+    |	.amber.accent-2
+    |	.amber-text.text-accent-2
+    |	.amber.accent-3
+    |	.amber-text.text-accent-3
+    |	.amber.accent-4
+    |	.amber-text.text-accent-4
+    |	.orange
+    |	.orange-text
+    |	.orange.lighten-5
+    |	.orange-text.text-lighten-5
+    |	.orange.lighten-4
+    |	.mean-container-light .orange.mean-bar
+    |	.mean-container-light .orange.mean-nav
+    |	.orange-text.text-lighten-4
+    |	.orange.lighten-3
+    |	.orange-text.text-lighten-3
+    |	.orange.lighten-2
+    |	.orange-text.text-lighten-2
+    |	.orange.lighten-1
+    |	.orange-text.text-lighten-1
+    |	.orange.darken-1
+    |	.orange-text.text-darken-1
+    |	.orange.darken-2
+    |	.orange-text.text-darken-2
+    |	.orange.darken-3
+    |	.orange-text.text-darken-3
+    |	.orange.darken-4
+    |	.magicnav--dark ul ul.orange
+    |	.orange-text.text-darken-4
+    |	.orange.accent-1
+    |	.orange-text.text-accent-1
+    |	.orange.accent-2
+    |	.orange-text.text-accent-2
+    |	.orange.accent-3
+    |	.orange-text.text-accent-3
+    |	.orange.accent-4
+    |	.orange-text.text-accent-4
+    |	.deep-orange
+    |	.deep-orange-text
+    |	.deep-orange.lighten-5
+    |	.deep-orange-text.text-lighten-5
+    |	.deep-orange.lighten-4
+    |	.mean-container-light .deep-orange.mean-bar
+    |	.mean-container-light .deep-orange.mean-nav
+    |	.deep-orange-text.text-lighten-4
+    |	.deep-orange.lighten-3
+    |	.deep-orange-text.text-lighten-3
+    |	.deep-orange.lighten-2
+    |	.deep-orange-text.text-lighten-2
+    |	.deep-orange.lighten-1
+    |	.deep-orange-text.text-lighten-1
+    |	.deep-orange.darken-1
+    |	.deep-orange-text.text-darken-1
+    |	.deep-orange.darken-2
+    |	.deep-orange-text.text-darken-2
+    |	.deep-orange.darken-3
+    |	.deep-orange-text.text-darken-3
+    |	.deep-orange.darken-4
+    |	.magicnav--dark ul ul.deep-orange
+    |	.deep-orange-text.text-darken-4
+    |	.deep-orange.accent-1
+    |	.deep-orange-text.text-accent-1
+    |	.deep-orange.accent-2
+    |	.deep-orange-text.text-accent-2
+    |	.deep-orange.accent-3
+    |	.deep-orange-text.text-accent-3
+    |	.deep-orange.accent-4
+    |	.deep-orange-text.text-accent-4
+    |	.brown
+    |	.brown-text
+    |	.brown.lighten-5
+    |	.brown-text.text-lighten-5
+    |	.brown.lighten-4
+    |	.mean-container-light .brown.mean-bar
+    |	.mean-container-light .brown.mean-nav
+    |	.brown-text.text-lighten-4
+    |	.brown.lighten-3
+    |	.brown-text.text-lighten-3
+    |	.brown.lighten-2
+    |	.brown-text.text-lighten-2
+    |	.brown.lighten-1
+    |	.brown-text.text-lighten-1
+    |	.brown.darken-1
+    |	.brown-text.text-darken-1
+    |	.brown.darken-2
+    |	.brown-text.text-darken-2
+    |	.brown.darken-3
+    |	.brown-text.text-darken-3
+    |	.brown.darken-4
+    |	.magicnav--dark ul ul.brown
+    |	.brown-text.text-darken-4
+    |	.brown.accent-1
+    |	.brown-text.text-accent-1
+    |	.brown.accent-2
+    |	.brown-text.text-accent-2
+    |	.mean-container-light .mean-bar
+    |	.mean-container-light .mean-nav
+    |	.mean-container-light .lighten-5.mean-bar
+    |	.mean-container-light .lighten-5.mean-nav
+    |	.mean-container-light .mean-bar
+    |	.mean-container-light .mean-nav
+    |	.mean-container-light .lighten-3.mean-bar
+    |	.mean-container-light .lighten-3.mean-nav
+    |	.mean-container-light .lighten-2.mean-bar
+    |	.mean-container-light .lighten-2.mean-nav
+    |	.mean-container-light .lighten-1.mean-bar
+    |	.mean-container-light .lighten-1.mean-nav
+    |	.mean-container-light .darken-1.mean-bar
+    |	.mean-container-light .darken-1.mean-nav
+    |	.mean-container-light .darken-2.mean-bar
+    |	.mean-container-light .darken-2.mean-nav
+    |	.mean-container-light .darken-3.mean-bar
+    |	.mean-container-light .darken-3.mean-nav
+    |	.mean-container-light .darken-4.mean-bar
+    |	.mean-container-light .magicnav--dark ul ul.mean-bar
+    |	.magicnav--dark ul .mean-container-light ul.mean-bar
+    |	.mean-container-light .darken-4.mean-nav
+    |	.mean-container-light .magicnav--dark ul ul.mean-nav
+    |	.magicnav--dark ul .mean-container-light ul.mean-nav
+    |	.mean-container-light .grey.mean-bar
+    |	.mean-container-light .grey.mean-nav
+    |	.shades.black
+    |	.shades-text.text-black
+    |	.shades.white
+    |	.shades-text.text-white
+    |	.shades.transparent
+    |	.shades-text.text-transparent
+    |	.transparent
+    |	.transparent-text
+    |	fieldset
+    |	.form-radio
+    |	.form-group
+    |	.form-inline > .form-group
+    |	.form-inline > .btn
+    |	.form-help
+    |	.checkbox .form-help
+    |	.form-radio .form-help
+    |	.form-group .form-help
+    |	.checkbox .form-help
+    |	.form-radio .form-help
+    |	.form-group input
+    |	.form-group textarea
+    |	.form-group select
+    |	.form-group .control-label
+    |	.form-group .bar
+    |	.form-group .bar::before
+    |	.form-group input
+    |	.form-group textarea
+    |	.form-group input[type="file"]
+    |	.form-group input[type="file"] ~ .bar
+    |	.form-group select
+    |	.form-group input:focus
+    |	.form-group input:valid
+    |	.form-group input.form-file
+    |	.form-group input.has-value
+    |	.form-group textarea:focus
+    |	.form-group textarea:valid
+    |	.form-group textarea.form-file
+    |	.form-group textarea.has-value
+    |	.form-group select ~ .control-label
+    |	.form-group input:focus ~ .control-label
+    |	.form-group input:valid ~ .control-label
+    |	.form-group input.form-file ~ .control-label
+    |	.form-group input.has-value ~ .control-label
+    |	.form-group textarea:focus ~ .control-label
+    |	.form-group textarea:valid ~ .control-label
+    |	.form-group textarea.form-file ~ .control-label
+    |	.form-group textarea.has-value ~ .control-label
+    |	.form-group select:focus
+    |	.form-group input:focus
+    |	.form-group textarea:focus
+    |	.form-group select:focus ~ .control-label
+    |	.form-group input:focus ~ .control-label
+    |	.form-group textarea:focus ~ .control-label
+    |	.form-group select:focus ~ .bar::before
+    |	.form-group input:focus ~ .bar::before
+    |	.form-group textarea:focus ~ .bar::before
+    |	.checkbox label
+    |	.form-radio label
+    |	.checkbox input
+    |	.form-radio input
+    |	.radio
+    |	.radio .helper
+    |	.radio .helper::before
+    |	.radio .helper::after
+    |	.radio .helper::after
+    |	.radio label:hover .helper
+    |	.radio input:checked ~ .helper::after
+    |	.radio input:checked ~ .helper::before
+    |	.checkbox
+    |	.checkbox .helper
+    |	.checkbox .helper::before
+    |	.checkbox .helper::after
+    |	.checkbox .helper::before
+    |	.checkbox .helper::after
+    |	.checkbox label:hover .helper
+    |	.checkbox input:checked ~ .helper
+    |	.checkbox input:checked ~ .helper::after
+    |	.checkbox input:checked ~ .helper::before
+    |	.checkbox input:checked ~ .helper::after
+    |	.checkbox input:checked ~ .helper::before
+    |	.radio + .radio
+    |	.checkbox + .checkbox
+    |	.has-error .legend.legend
+    |	.has-error.form-group .control-label.control-label
+    |	.has-error.form-group .form-help
+    |	.has-error.form-group .helper
+    |	.has-error.checkbox .form-help
+    |	.has-error.checkbox .helper
+    |	.has-error.radio .form-help
+    |	.has-error.radio .helper
+    |	.has-error.form-radio .form-help
+    |	.has-error.form-radio .helper
+    |	.has-error .bar::before
+    |	.tmg--btn_submit
+    |	.tmg--btn_submit span
+    |	.tmg--btn_submit::before
+    |	.tmg--btn_submit:hover
+    |	.tmg--btn_submit:active::before
+    |	.tmg--btn_submit:focus::before
+    |	.tmg--btn_submit:focus
+    |	.form-asterisk
+    |	a.meanmenu-reveal
+    |	.mean-container .mean-bar
+    |	.mean-container a.meanmenu-reveal
+    |	.mean-container a.meanmenu-reveal span
+    |	.mean-container .mean-nav
+    |	.mean-container .mean-nav ul
+    |	.mean-container .mean-nav ul li
+    |	.mean-container .mean-nav ul li a
+    |	.mean-container .mean-nav ul li li a
+    |	.mean-container .mean-nav ul li.mean-last a
+    |	.mean-container .mean-nav ul li li li a
+    |	.mean-container .mean-nav ul li li li li a
+    |	.mean-container .mean-nav ul li li li li li a
+    |	.mean-container .mean-nav ul li a:hover
+    |	.mean-container .mean-nav ul li a.mean-expand
+    |	.mean-container .mean-nav ul li a.mean-expand:hover
+    |	.mean-container .mean-push
+    |	.mean-nav .wrapper
+    |	.mean-container .mean-bar
+    |	.mean-container .mean-bar *
+    |	.mean-remove
+    |	.mean-container .mean-nav ul li.current
+    |	a.meanmenu-reveal
+    |	.mean-container-light .mean-bar
+    |	.mean-container-light a.meanmenu-reveal
+    |	.mean-container-light a.meanmenu-reveal span
+    |	.mean-container-light .mean-nav
+    |	.mean-container-light .mean-nav ul
+    |	.mean-container-light .mean-nav ul li
+    |	.mean-container-light .mean-nav ul li a
+    |	.mean-container-light .mean-nav ul li li a
+    |	.mean-container-light .mean-nav ul li.mean-last a
+    |	.mean-container-light .mean-nav ul li li li a
+    |	.mean-container-light .mean-nav ul li li li li a
+    |	.mean-container-light .mean-nav ul li li li li li a
+    |	.mean-container-light .mean-nav ul li a:hover
+    |	.mean-container-light .mean-nav ul li a.mean-expand
+    |	.mean-container-light .mean-nav ul li a.mean-expand:hover
+    |	.mean-container-light .mean-push
+    |	.mean-nav .wrapper
+    |	.mean-container-light .mean-bar
+    |	.mean-container-light .mean-bar *
+    |	.mean-remove
+    |	.mean-container-light .mean-nav ul li.current
+    |	.magicnav--dark li.sfHover ul
+    |	.magicnav--dark ul li.sfHover ul li ul
+    |	.magicnav--dark ul li.sfHover li ul
+    |	.magicnav--dark ul li li.sfHover ul
+    |	.magicnav--dark ul li li.sfHover li ul
+    |	.magicnav--dark li.sfHover a
+    |	.magicnav--dark li.sfHover li a
+    |	.sf-with-ul
+    |	nav ul li.current
+    |	.nav-active
+    |	.nav-active
+    |	.sf-arrows .sf-with-ul
+    |	.sf-arrows .sf-with-ul:after
+    |	.sf-arrows .sf-with-ul:after
+    |	.sf-arrows > .sfHover > .sf-with-ul:after
+    |	.sf-arrows > li:hover > .sf-with-ul:after
+    |	.sf-arrows > li > .sf-with-ul:focus:after
+    |	.sf-arrows ul .sf-with-ul:after
+    |	.sf-arrows ul .sfHover > .sf-with-ul:after
+    |	.sf-arrows ul li:hover > .sf-with-ul:after
+    |	.sf-arrows ul li > .sf-with-ul:focus:after
+    |	.magicnav--light li.sfHover ul
+    |	.magicnav--light ul li.sfHover ul li ul
+    |	.magicnav--light ul li.sfHover li ul
+    |	.magicnav--light ul li li.sfHover ul
+    |	.magicnav--light ul li li.sfHover li ul
+    |	.magicnav--light li.sfHover a
+    |	.magicnav--light li.sfHover li a
+    |	.sf-with-ul
+    |	nav ul li.current
+    |	.nav-active
+    |	.nav-active
+    |	.sf-arrows .sf-with-ul
+    |	.sf-arrows .sf-with-ul:after
+    |	.sf-arrows .sf-with-ul:after
+    |	.sf-arrows > .sfHover > .sf-with-ul:after
+    |	.sf-arrows > li:hover > .sf-with-ul:after
+    |	.sf-arrows > li > .sf-with-ul:focus:after
+    |	.sf-arrows ul .sf-with-ul:after
+    |	.sf-arrows ul .sfHover > .sf-with-ul:after
+    |	.sf-arrows ul li:hover > .sf-with-ul:after
+    |	.sf-arrows ul li > .sf-with-ul:focus:after
+    |	body[data-aos-delay='50'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='50'].aos-animate
+    |	body[data-aos-delay='100'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='100'].aos-animate
+    |	body[data-aos-delay='150'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='150'].aos-animate
+    |	body[data-aos-delay='200'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='200'].aos-animate
+    |	body[data-aos-delay='250'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='250'].aos-animate
+    |	body[data-aos-delay='300'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='300'].aos-animate
+    |	body[data-aos-delay='350'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='350'].aos-animate
+    |	body[data-aos-delay='400'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='400'].aos-animate
+    |	body[data-aos-delay='450'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='450'].aos-animate
+    |	body[data-aos-delay='500'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='500'].aos-animate
+    |	body[data-aos-delay='550'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='550'].aos-animate
+    |	body[data-aos-delay='600'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='600'].aos-animate
+    |	body[data-aos-delay='650'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='650'].aos-animate
+    |	body[data-aos-delay='700'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='700'].aos-animate
+    |	body[data-aos-delay='750'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='750'].aos-animate
+    |	body[data-aos-delay='800'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='800'].aos-animate
+    |	body[data-aos-delay='850'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='850'].aos-animate
+    |	body[data-aos-delay='900'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='900'].aos-animate
+    |	body[data-aos-delay='950'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='950'].aos-animate
+    |	body[data-aos-delay='1000'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1000'].aos-animate
+    |	body[data-aos-delay='1050'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1050'].aos-animate
+    |	body[data-aos-delay='1100'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1100'].aos-animate
+    |	body[data-aos-delay='1150'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1150'].aos-animate
+    |	body[data-aos-delay='1200'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1200'].aos-animate
+    |	body[data-aos-delay='1250'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1250'].aos-animate
+    |	body[data-aos-delay='1300'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1300'].aos-animate
+    |	body[data-aos-delay='1350'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1350'].aos-animate
+    |	body[data-aos-delay='1400'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1400'].aos-animate
+    |	body[data-aos-delay='1450'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1450'].aos-animate
+    |	body[data-aos-delay='1500'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1500'].aos-animate
+    |	body[data-aos-delay='1550'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1550'].aos-animate
+    |	body[data-aos-delay='1600'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1600'].aos-animate
+    |	body[data-aos-delay='1650'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1650'].aos-animate
+    |	body[data-aos-delay='1700'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1700'].aos-animate
+    |	body[data-aos-delay='1750'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1750'].aos-animate
+    |	body[data-aos-delay='1800'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1800'].aos-animate
+    |	body[data-aos-delay='1850'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1850'].aos-animate
+    |	body[data-aos-delay='1900'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1900'].aos-animate
+    |	body[data-aos-delay='1950'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='1950'].aos-animate
+    |	body[data-aos-delay='2000'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2000'].aos-animate
+    |	body[data-aos-delay='2050'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2050'].aos-animate
+    |	body[data-aos-delay='2100'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2100'].aos-animate
+    |	body[data-aos-delay='2150'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2150'].aos-animate
+    |	body[data-aos-delay='2200'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2200'].aos-animate
+    |	body[data-aos-delay='2250'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2250'].aos-animate
+    |	body[data-aos-delay='2300'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2300'].aos-animate
+    |	body[data-aos-delay='2350'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2350'].aos-animate
+    |	body[data-aos-delay='2400'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2400'].aos-animate
+    |	body[data-aos-delay='2450'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2450'].aos-animate
+    |	body[data-aos-delay='2500'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2500'].aos-animate
+    |	body[data-aos-delay='2550'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2550'].aos-animate
+    |	body[data-aos-delay='2600'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2600'].aos-animate
+    |	body[data-aos-delay='2650'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2650'].aos-animate
+    |	body[data-aos-delay='2700'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2700'].aos-animate
+    |	body[data-aos-delay='2750'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2750'].aos-animate
+    |	body[data-aos-delay='2800'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2800'].aos-animate
+    |	body[data-aos-delay='2850'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2850'].aos-animate
+    |	body[data-aos-delay='2900'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2900'].aos-animate
+    |	body[data-aos-delay='2950'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='2950'].aos-animate
+    |	body[data-aos-delay='3000'] [data-aos].aos-animate
+    |	[data-aos][data-aos][data-aos-delay='3000'].aos-animate
+    |	[data-aos^='fade'][data-aos^='fade'].aos-animate
+    |	[data-aos^='zoom'][data-aos^='zoom'].aos-animate
+    |	[data-aos^='slide'][data-aos^='slide'].aos-animate
+    |	[data-aos='flip-left'].aos-animate
+    |	[data-aos='flip-right'].aos-animate
+    |	[data-aos='flip-up'].aos-animate
+    |	[data-aos='flip-down'].aos-animate
+    |	.tmg-table tr
+    |	.tmg-table th
+    |	.tmg-table td
+    |	.tmg-table td:first-child
+    |	.tmg-table td:last-child
+    |	.tmg-table td:before
+    |	.tmg-table td:before
+    |	.tmg-table th
+    |	.tmg-table td
+    |	.tmg-table th
+    |	.tmg-table td
+    |	.tmg-table th:first-child
+    |	.tmg-table td:first-child
+    |	.tmg-table th:last-child
+    |	.tmg-table td:last-child
+    |	.tmg-table th
+    |	.tmg-table td
+    |	.tmg-table th
+    |	.tmg-table td
+    |	.tmg-table th
+    |	.tmg-table td:before
+    |	.slick-loading .slick-list
+    |	.slick-prev
+    |	.slick-next
+    |	.slick-prev:hover
+    |	.slick-prev:focus
+    |	.slick-next:hover
+    |	.slick-next:focus
+    |	.slick-prev:hover:before
+    |	.slick-prev:focus:before
+    |	.slick-next:hover:before
+    |	.slick-next:focus:before
+    |	.slick-prev.slick-disabled:before
+    |	.slick-next.slick-disabled:before
+    |	.slick-prev:before
+    |	.slick-next:before
+    |	.slick-prev
+    |	[dir="rtl"] .slick-prev
+    |	.slick-prev:before
+    |	[dir="rtl"] .slick-prev:before
+    |	.slick-next
+    |	[dir="rtl"] .slick-next
+    |	.slick-next:before
+    |	[dir="rtl"] .slick-next:before
+    |	.slick-dotted.slick-slider
+    |	.slick-dots
+    |	.slick-dots li
+    |	.slick-dots li button
+    |	.slick-dots li button:hover
+    |	.slick-dots li button:focus
+    |	.slick-dots li button:hover:before
+    |	.slick-dots li button:focus:before
+    |	.slick-dots li button:before
+    |	.slick-dots li.slick-active button:before
+    |	.slick-slider
+    |	.slick-list
+    |	.slick-list:focus
+    |	.slick-list.dragging
+    |	.slick-slider .slick-track
+    |	.slick-slider .slick-list
+    |	.slick-track
+    |	.slick-track:before
+    |	.slick-track:after
+    |	.slick-track:after
+    |	.slick-loading .slick-track
+    |	.slick-slide
+    |	[dir="rtl"] .slick-slide
+    |	.slick-slide img
+    |	.slick-slide.slick-loading img
+    |	.slick-slide.dragging img
+    |	.slick-initialized .slick-slide
+    |	.slick-loading .slick-slide
+    |	.slick-vertical .slick-slide
+    |	.slick-arrow.slick-hidden
+    |	.waves-effect
+    |	.waves-effect .waves-ripple
+    |	.waves-effect.waves-light .waves-ripple
+    |	.waves-effect.waves-classic .waves-ripple
+    |	.waves-effect.waves-classic.waves-light .waves-ripple
+    |	.waves-notransition
+    |	.waves-button
+    |	.waves-circle
+    |	.waves-button
+    |	.waves-button:hover
+    |	.waves-button:visited
+    |	.waves-button-input
+    |	.waves-button
+    |	.waves-button-input
+    |	.waves-input-wrapper
+    |	.waves-input-wrapper.waves-button
+    |	.waves-input-wrapper .waves-button-input
+    |	.waves-circle
+    |	.waves-float
+    |	.waves-float:active
+    |	.waves-block
+    |	#colored-button .btn
+    |	#colored-button a
+    |	#colored-button a:hover
+    |	#colored-button button
+    |	#colored-button button:hover
+    |	#colored-button input
+    |	#colored-button input:hover
+    |	.banner-settings
+    |
+    ________________________________________________
+    

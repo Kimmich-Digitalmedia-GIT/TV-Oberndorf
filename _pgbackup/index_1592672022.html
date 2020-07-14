@@ -13,6 +13,7 @@
         <!-- Style Library -->         
         <link href="css/themagicstyles-min.css" rel="stylesheet">
         <link href="css/overwriterules.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/purified.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -26,7 +27,7 @@
             };
         </script>
     </head>
-    <body>
+    <body data-pg-collapsed>
         <header class="header-padding_top">
             <div class="company--brand_mobile"></div>
             <nav class="magicnav--dark tmg--fixed z-depth-1-half" aria-label="Page Menu" data-pg-collapsed>
@@ -78,8 +79,8 @@
             <div data-pg-name="Sportarten" aria-label="Sportarten" data-scroll-index="2" data-pg-collapsed class="tmg--inner-b-1">
                 <section aria-label="" class="tmg__area--width" data-pg-name="Sportarten Headline" data-pg-collapsed>
                     <div class="tmg--inner-l-1 tmg__module">
-                        <h3 class="blue-text text-darken-3 tmg--inner-t-1 tmg--outer-b-1">Unser Sport</h3>
-                        <p>Wir organisieren Sport. Finden Sie hier alle unsere Sportarten im Überblick.</p>
+                        <h2 class="blue-text text-darken-3 tmg--inner-t-1 tmg--outer-b-1">Unser Sport</h2>
+                        <p>Wir organisieren Sport. Finden Sie hier alle unsere Sportarten im Überblick.<br>Hinweis zur Handhabung:<br>Einige unserer Disziplinen haben ihren eigenen Webauftritt. Diese sind mit &quot;Link (Extern) bezeichnet und bringt Sie in einem neuen Fenster zur Homepage der jeweiligen Disziplin.<br>Die Disziplinen, welche zu diesem Webauftritt gehören, sind mit &quot;mehr erfahren ...&quot; gekennzeichnet.</p>
                     </div>
                 </section>
                 <section aria-label="" class="tmg__area--width" data-pg-name="Sport 1-6" data-pg-collapsed>
@@ -137,7 +138,7 @@
                                 </div>
                                 <div class="tmg--inner-l-1 tmg-eh-content-3">
                                     <div class="tmg-eh-content-3-1">
-                                        <a class="darken-3 float-button-light white-text yellow" data-pg-name="Link Über uns" href="https://www.hsg-neckartal.de">Mehr erfahren...</a>
+                                        <a class="darken-3 float-button-light white-text yellow" data-pg-name="Link Über uns" href="https://www.hsg-neckartal.de" target="_blank" rel="HSG Handball">Link (Extern)</a>
                                     </div>
                                 </div>
                             </article>
@@ -295,14 +296,15 @@
                     </div>
                 </section>
             </div>
-            <section class="tmg--inner-b-2 tmg__area--width" data-pg-name="Pricing" data-pg-collapsed aria-label="Mitgliedsbeiträe" data-scroll-index="3">
-                <div class="tmg--inner-l-1 tmg__module--Flex">
+            <section class="tmg--inner-b-4 tmg__area--width" data-pg-name="Pricing" data-pg-collapsed aria-label="Mitgliedsbeiträe" data-scroll-index="3">
+                <div class="tmg--inner-l-1 tmg__module--Flex" data-pg-collapsed>
                     <article>
-                        <h3 class="blue-text text-darken-3 tmg--outer-b-1">Mitgliedsbeiträge</h3>
+                        <h2 class="blue-text text-darken-3 tmg--outer-b-1">Mitgliedsbeiträge</h2>
                         <p class="tmg--outer-b-1">Unsere Mitgliedsbeiträge gültig ab März 2014:</p>
+                        <h3 class="blue-text text-darken-3 tmg--outer-b-1">Einzelpersonen</h3>
                     </article>
                 </div>
-                <div class="pricing-table tmg-four-1600 tmg-two-900 tmg__module--Flex tmg__text-justifyCenter" data-pg-name="Individuell">
+                <div class="pricing-table tmg-four-1600 tmg-two-800 tmg__module--Flex tmg__text-justifyCenter" data-pg-name="Individuell" data-pg-collapsed>
                     <article data-pg-name="Jugendliche" class="tmg--inner-1">
                         <div class="plan1 tmg--inner-b-1">
                             <div class="header tmg--inner-2 tmg--outer-b-1">Jugendliche 
@@ -348,7 +350,7 @@
                                     <p>* mit Abteilungsbeitrag!</p>
                                 </li>
                                 <li>
-                                    <p>Es werden nur Jahresbeiträge eingezogen.</p>
+                                    <p>* Es werden nur Jahresbeiträge eingezogen.</p>
                                 </li>                                 
                             </ul>
                         </div>
@@ -404,9 +406,14 @@
                         </div>
                     </article>
                 </div>
-                <div class="pricing-table tmg-three-1300 tmg__module--Flex tmg__text-justifyCenter" data-pg-name="Familien" data-pg-collapsed>
+                <div class="tmg--inner-l-1 tmg__module--Flex" data-pg-collapsed>
+                    <article>
+                        <h3 class="blue-text text-darken-3 tmg--outer-b-1">Familien</h3>
+                    </article>
+                </div>
+                <div class="pricing-table tmg-three-1100 tmg__module--Flex tmg__text-justifyCenter" data-pg-name="Familien" data-pg-collapsed>
                     <article data-pg-name="Aktiver + Kind" class="tmg--inner-1">
-                        <div class="plan5">
+                        <div class="plan5" data-pg-collapsed>
                             <div class="header tmg--inner-2 tmg--outer-b-1">Familienbeitrag 
                                 <br>1 Aktiver und 1 Kind*
                             </div>
@@ -421,20 +428,20 @@
                                 <li>
                                     <p>Faustball, Fechten, Handball, Judo*, Karate*, Kick–Boxen, Leichtathletik, Trampolin, Turnen, Pickleball, Soma</p>
                                 </li>
-                                <li class="tmg--outer-b-1">
+                                <li data-pg-collapsed class="tmg--outer-b-1">
                                     <p>* mit Abteilungsbeitrag!</p>
                                 </li>
-                                <li>
+                                <li data-pg-collapsed>
                                     <p>* Jedes weitere Kind ist beitragsfrei!</p>
                                 </li>
-                                <li>
+                                <li data-pg-collapsed>
                                     <p>* Es werden nur Jahresbeiträge eingezogen.</p>
                                 </li>                                 
                             </ul>
                         </div>
                     </article>
-                    <article class="tmg--inner-1" data-pg-collapsed data-pg-name="Ehepaar">
-                        <div class="plan2">
+                    <article class="tmg--inner-1" data-pg-name="Ehepaar">
+                        <div class="plan6" data-pg-collapsed>
                             <div class="header tmg--inner-2 tmg--outer-b-1">Familienbeitrag 
                                 <br>2 Aktive/Ehepaar
                             </div>
@@ -461,8 +468,8 @@
                             </ul>
                         </div>
                     </article>
-                    <article data-pg-name="Ehepaar + Kind" class="tmg--inner-1" data-pg-collapsed>
-                        <div class="plan3">
+                    <article data-pg-name="Ehepaar + Kind" class="tmg--inner-1">
+                        <div class="plan7">
                             <div class="header tmg--inner-2 tmg--outer-b-1">Familienbeitrag 
                                 <br>2 Aktive (Ehepaar) und 1 Kind*
                             </div>
@@ -499,7 +506,7 @@
                         </article>
                         <article class="tmg--inner-2">
                             <h3 class="blue-text text-darken-3 tmg--outer-b-1">Oberndorfer Lauftag</h3>
-                            <p class="tmg--outer-b-1">Seit 2008 gibt es den Oberndorfer Lauftag. Der Turnverein Oberndorf 1861 e. V. organisiert dieses Sportereignis zusammen mit dem Amt für Kultur, Bildung, Jugend und Sport  dieses jeweils Anfang Mai. </p>
+                            <p class="tmg--outer-b-1">Seit 2008 gibt es den Oberndorfer Lauftag. Der Turnverein Oberndorf 1861 e. V. organisiert dieses Sportereignis zusammen mit dem Amt für Kultur, Bildung, Jugend und Sport - dieses jeweils Anfang Mai.</p>
                             <p class="tmg--outer-b-1">In einem Halbmarathon, einem Fitnesslauf (10,5 km) und einem Schülerlauf (1,5 km) können sich die Sportlerinnen und Sportler messen. Bis zu 600 Teilnehmer nehmen an diesen Läufen teil. Die Halbmarathonstrecke ist zertifiziert.</p>
                             <p>Aufgrund der Coronakrise konnte der Lauftag 2020 leider nicht stattfinden.</p>
                         </article>
@@ -553,12 +560,6 @@
                                 <li>
                                     <a>Home</a>
                                 </li>
-                                <li>
-                                    <a href="#">Sitemaplink-2</a>
-                                </li>
-                                <li>
-                                    <a href="#">Sitemaplink-3</a>
-                                </li>
                             </ul>
                         </div>
                         <div class="tmg--inner-1" data-pg-name="Grid-2">
@@ -566,12 +567,6 @@
                                 <li data-pg-name="List Title" class="sitemap-if-dark-title">Unser Sport:</li>
                                 <li>
                                     <a href="fechten.html">Fechten</a>
-                                </li>
-                                <li>
-                                    <a href="#">Sitemaplink-2-1</a>
-                                </li>
-                                <li>
-                                    <a href="#">Sitemaplink-3-1</a>
                                 </li>
                             </ul>
                         </div>
