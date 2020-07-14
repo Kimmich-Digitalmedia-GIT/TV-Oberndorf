@@ -13,6 +13,8 @@
         <!-- Style Library -->         
         <link href="css/themagicstyles-min.css" rel="stylesheet">
         <link href="css/overwriterules.css" rel="stylesheet">
+        <!-- Purified the above Style Library -->         
+        <!-- <link href="css/purified.css" rel="stylesheet"> -->
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -29,19 +31,22 @@
     <body>
         <header class="header-padding_top">
             <div class="company--brand_mobile"></div>
-            <nav class="magicnav--dark tmg--fixed z-depth-1-half" aria-label="Page Menu" data-pg-collapsed>
+            <nav class="magicnav--dark tmg--fixed z-depth-1-half" aria-label="Page Menu">
                 <ul class="sf-menu tmg--Flex">
                     <li>
-                        <a data-scroll-nav="1" class="sf-li">Über uns</a>
+                        <a data-scroll-nav="1" class="sf-li">Wir</a>
                     </li>
                     <li>
                         <a data-scroll-nav="2" class="sf-li">Unser Sport</a>
                     </li>
-                    <li>
-                        <a data-scroll-nav="3" class="sf-li">Mitgliedsbeiträge</a>
+                    <li data-pg-collapsed>
+                        <a data-scroll-nav="3" class="sf-li">Über uns</a>
                     </li>
                     <li>
-                        <a data-scroll-nav="4" class="sf-li">Lauftag</a>
+                        <a data-scroll-nav="4" class="sf-li">Mitgliedsbeiträge</a>
+                    </li>
+                    <li>
+                        <a data-scroll-nav="5" class="sf-li">Lauftag</a>
                     </li>
                     <li>
                         <a data-scroll-nav="18" class="sf-li">Kontakt</a>
@@ -54,17 +59,17 @@
         </header>
         <main>
             <section class="tmg__area" aria-label="jumbotron" data-pg-name="Hero" data-pg-collapsed>
-                <div class="tmg__module--Flex">
-                    <article class="accent-4 black-text center-content_flex--column tmg--inner-2 tmg-half-900 tmg-third-1600 yellow" data-pg-collapsed data-pg-name="Fade-In">
+                <div class="tmg__module--Flex" data-pg-collapsed>
+                    <article class="accent-4 black-text center-content_flex--column tmg--inner-2 tmg-half-900 tmg-third-1600 yellow" data-pg-name="Fade-In" data-pg-collapsed>
                         <h1 class="tmg--outer-b-1"><span style="display: block;" class="fade-in one">Wir bewegen</span><span style="display: block;" class="fade-in two">Menschen,</span> <span style="display: block;" class="fade-in three">mit Menschen,</span> <span class="fade-in four">die bewegen!</span></h1>
                     </article>
-                    <article class="hero-illustration_flex tmg-half-900 tmg-two-third-1600" data-pg-collapsed data-pg-name="Hero Image">
+                    <article class="hero-illustration_flex tmg-half-900 tmg-two-third-1600" data-pg-name="Hero Image" data-pg-collapsed>
                         <img src="img/hero.jpg"/>
                     </article>
                 </div>
             </section>
             <section aria-label="Welcome" class="blue-grey blue-grey-text lighten-5 text-darken-4 tmg--inner-tb-2" data-pg-name="Welcome" data-scroll-index="1" data-pg-collapsed>
-                <article aria-labelledby="Article_Head_Main" class="center-content_flex--column tmg__area--width tmg__text-justifyCenter">
+                <article aria-labelledby="Article_Head_Main" class="center-content_flex--column tmg__area--width tmg__text-justifyCenter" data-pg-collapsed>
                     <img src="img/Wappen_Oberndorf_am_Neckar.png" style="max-width: 100px;" class="tmg--outer-b-1" data-pg-name="Wappen Oberndorf"/>
                     <h2 class="tmg--inner-lr-1 tmg--outer-b-1" data-pg-name="H2 Willkommen">Herzlich Willkommen beim TV Oberndorf!</h2>
                     <p class="flow-text tmg--outer-b-1" data-pg-name="p Willkommen" style="max-width: 60%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet. Curabitur ac sagittis neque, vel egestas est. Aenean elementum, erat at aliquet hendrerit, elit nisl posuere tortor, id suscipit diam dui sed nisi. Morbi sollicitudin massa vel tortor consequat, eget semper nisl fringilla. Maecenas at hendrerit odio. Sed in mi eu quam suscipit bibendum quis at orci. Pellentesque fermentum nisl purus, et iaculis lectus pharetra sit amet.</p>
@@ -75,14 +80,14 @@
                     </div>
                 </article>
             </section>
-            <div data-pg-name="Sportarten" aria-label="Sportarten" data-scroll-index="2" data-pg-collapsed class="tmg--inner-b-1">
-                <section aria-label="" class="tmg__area--width" data-pg-name="Sportarten Headline" data-pg-collapsed>
+            <div data-pg-name="Sportarten" aria-label="Sportarten" class="tmg--inner-b-1" data-pg-collapsed data-scroll-index="2">
+                <section aria-label="" class="tmg__area--width" data-pg-name="Sportarten Headline">
                     <div class="tmg--inner-l-1 tmg__module">
                         <h2 class="blue-text text-darken-3 tmg--inner-t-1 tmg--outer-b-1">Unser Sport</h2>
-                        <p>Wir organisieren Sport. Finden Sie hier alle unsere Sportarten im Überblick.</p>
+                        <p>Wir organisieren Sport. Finden Sie hier alle unsere Sportarten im Überblick.<br>Hinweis zur Handhabung:<br>Einige unserer Disziplinen haben ihren eigenen Webauftritt. Diese sind mit &quot;Link (Extern) bezeichnet und bringt Sie in einem neuen Fenster zur Homepage der jeweiligen Disziplin.<br>Die Disziplinen, welche zu diesem Webauftritt gehören, sind mit &quot;mehr erfahren ...&quot; gekennzeichnet.</p>
                     </div>
                 </section>
-                <section aria-label="" class="tmg__area--width" data-pg-name="Sport 1-6" data-pg-collapsed>
+                <section aria-label="" class="tmg__area--width" data-pg-name="Sport 1-6">
                     <div class="tmg-six-2000 tmg-three-1200 tmg-two-600 tmg__module--Flex">
                         <div style="display: flex;" class="tmg--inner-1" data-pg-name="Turnen Wrapper">
                             <article class="tmg--inner-b-1 tmg-equalheight-col" data-pg-name="Turnen">
@@ -93,12 +98,9 @@
                                         <p class="tmg--outer-b-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet.&nbsp;</p>
                                     </div>
                                 </div>
-                                <div class="tmg--inner-l-1 tmg-eh-content-3" data-pg-name="Turnen Wrapper">
-                                    <div class="tmg-eh-content-3-1"></div>
-                                </div>
                             </article>
                         </div>
-                        <div style="display: flex;" class="tmg--inner-1" data-pg-name="Trampolin Wrapper">
+                        <div style="display: flex;" class="tmg--inner-1" data-pg-name="Trampolin Wrapper" data-pg-collapsed>
                             <article class="tmg--inner-b-1 tmg-equalheight-col" data-pg-name="Fechten">
                                 <img src="https://images.unsplash.com/photo-1572417051886-c16f1253a604?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=500&h=300&fit=crop" class="tmg--outer-b-1"/>
                                 <div class="tmg--inner-lr-1 tmg-eh-content-2">
@@ -112,7 +114,7 @@
                                 </div>
                             </article>
                         </div>
-                        <div style="display: flex;" class="tmg--inner-1" data-pg-name="Faustball Wrapper">
+                        <div style="display: flex;" class="tmg--inner-1" data-pg-name="Faustball Wrapper" data-pg-collapsed>
                             <article class="tmg--inner-b-1 tmg-equalheight-col" data-pg-name="Fechten">
                                 <img src="https://images.unsplash.com/photo-1554728667-662368ae729a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=500&h=300&fit=crop" class="tmg--outer-b-1"/>
                                 <div class="tmg--inner-lr-1 tmg-eh-content-2">
@@ -126,7 +128,7 @@
                                 </div>
                             </article>
                         </div>
-                        <div style="display: flex;" class="tmg--inner-1" data-pg-name="Handball Wrapper">
+                        <div style="display: flex;" class="tmg--inner-1" data-pg-name="Handball Wrapper" data-pg-collapsed>
                             <article class="tmg--inner-b-1 tmg-equalheight-col" data-pg-name="Fechten">
                                 <img src="https://images.unsplash.com/photo-1587384474964-3a06ce1ce699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=500&h=300&fit=crop" class="tmg--outer-b-1"/>
                                 <div class="tmg--inner-lr-1 tmg-eh-content-2">
@@ -137,12 +139,12 @@
                                 </div>
                                 <div class="tmg--inner-l-1 tmg-eh-content-3">
                                     <div class="tmg-eh-content-3-1">
-                                        <a class="darken-3 float-button-light white-text yellow" data-pg-name="Link Über uns" href="https://www.hsg-neckartal.de">Mehr erfahren...</a>
+                                        <a class="darken-3 float-button-light white-text yellow" data-pg-name="Link Über uns" href="https://www.hsg-neckartal.de" target="_blank" rel="HSG Handball">Link (Extern)</a>
                                     </div>
                                 </div>
                             </article>
                         </div>
-                        <div style="display: flex;" class="tmg--inner-1" data-pg-name="Pickleball Wrapper">
+                        <div style="display: flex;" class="tmg--inner-1" data-pg-name="Pickleball Wrapper" data-pg-collapsed>
                             <article class="tmg--inner-b-1 tmg-equalheight-col" data-pg-name="Turnen">
                                 <img src="https://images.unsplash.com/photo-1524190953017-a0e58d1db9ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=500&h=300&fit=crop" class="tmg--outer-b-1"/>
                                 <div class="tmg--inner-lr-1 tmg-eh-content-2">
@@ -156,7 +158,7 @@
                                 </div>
                             </article>
                         </div>
-                        <div style="display: flex;" class="tmg--inner-1" data-pg-name="SOMA Wrapper">
+                        <div style="display: flex;" class="tmg--inner-1" data-pg-name="SOMA Wrapper" data-pg-collapsed>
                             <article class="tmg--inner-b-1 tmg-equalheight-col" data-pg-name="Turnen">
                                 <img src="https://images.unsplash.com/photo-1552318965-6e6be7484ada?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=500&h=300&fit=crop" class="tmg--outer-b-1"/>
                                 <div class="tmg--inner-lr-1 tmg-eh-content-2">
@@ -172,7 +174,7 @@
                         </div>
                     </div>
                 </section>
-                <section aria-label="" class="tmg__area--width" data-pg-name="Sport 7-10" data-pg-collapsed>
+                <section aria-label="" class="tmg__area--width" data-pg-name="Sport 7-10">
                     <div class="tmg-four-1400 tmg-two-600 tmg__module--Flex">
                         <div style="display: flex;" class="tmg--inner-1" data-pg-name="Fechten Wrapper">
                             <article class="tmg--inner-b-1 tmg-equalheight-col" data-pg-name="Fechten">
@@ -184,10 +186,7 @@
                                     </div>
                                 </div>
                                 <div class="tmg--inner-l-1 tmg-eh-content-3">
-                                    <div class="tmg-eh-content-3-1">
-                                        <a class="darken-3 float-button-light white-text yellow" data-pg-name="Link Über uns" href="fechten.html">Mehr erfahren...</a>
-                                    </div>
-                                </div>
+</div>
                             </article>
                         </div>
                         <div style="display: flex;" class="tmg--inner-1" data-pg-name="Judo Wrapper">
@@ -295,15 +294,29 @@
                     </div>
                 </section>
             </div>
-            <section class="tmg--inner-b-2 tmg__area--width" data-pg-name="Pricing" data-pg-collapsed aria-label="Mitgliedsbeiträe" data-scroll-index="3">
-                <div class="tmg--inner-l-1 tmg__module--Flex" data-pg-collapsed>
+            <div data-pg-name="Über uns" data-scroll-index="3" data-pg-collapsed class="tmg--inner-tb-2">
+                <section data-pg-name="Über uns" aria-label="Lauftag" class="tmg--inner-lr-1 tmg__area--width">
+                    <div class="tmg-two tmg__module--Flex">
+                        <article style="display: flex; background-repeat: no-repeat; background-position: center top;">
+                            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjIwOTIyfQq=85&fm=jpg&crop=faces&cs=srgb&w=500&h=300&fit=crop"/>
+                        </article>
+                        <article class="tmg--inner-2">
+                            <h3 class="blue-text text-darken-3 tmg--outer-b-1">Über uns</h3>
+                            <p class="tmg--outer-b-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pulvinar faucibus neque, nec rhoncus nunc ultrices sit amet. Curabitur ac sagittis neque, vel egestas est. Aenean elementum, erat at aliquet hendrerit, elit nisl posuere tortor, id suscipit diam dui sed nisi.</p>
+                            <a class="darken-3 float-button-light white-text yellow" data-pg-name="Link Über uns" href="fechten.html">Mehr erfahren...</a>
+                        </article>
+                    </div>
+                </section>
+            </div>
+            <section class="tmg--inner-b-4 tmg__area--width" data-pg-name="Pricing" aria-label="Mitgliedsbeiträe" data-scroll-index="4" data-pg-collapsed>
+                <div class="tmg--inner-l-1 tmg__module--Flex">
                     <article>
                         <h2 class="blue-text text-darken-3 tmg--outer-b-1">Mitgliedsbeiträge</h2>
                         <p class="tmg--outer-b-1">Unsere Mitgliedsbeiträge gültig ab März 2014:</p>
-                        <h3 class="blue-text text-darken-3">Einzelpersonen</h3>
+                        <h3 class="blue-text text-darken-3 tmg--outer-b-1">Einzelpersonen</h3>
                     </article>
                 </div>
-                <div class="pricing-table tmg-four-1600 tmg-two-800 tmg__module--Flex tmg__text-justifyCenter" data-pg-name="Individuell" data-pg-collapsed>
+                <div class="pricing-table tmg-four-1600 tmg-two-800 tmg__module--Flex tmg__text-justifyCenter" data-pg-name="Individuell">
                     <article data-pg-name="Jugendliche" class="tmg--inner-1">
                         <div class="plan1 tmg--inner-b-1">
                             <div class="header tmg--inner-2 tmg--outer-b-1">Jugendliche 
@@ -313,23 +326,23 @@
                             <div class="monthly tmg--outer-b-1">Beitrag pro Jahr *
                                 <br>(&euro;4.00 pro Monat)
                             </div>
-                            <ul data-pg-collapsed>
-                                <li data-pg-collapsed class="tmg--outer-b-1">
+                            <ul>
+                                <li class="tmg--outer-b-1">
                                     <p><b>Für diesen Beitrag können Sie in folgenden Abteilungen trainieren:</b></p>
                                 </li>
-                                <li data-pg-collapsed>
+                                <li>
                                     <p>Faustball, Fechten, Handball, Judo*, Karate*, Kick–Boxen, Leichtathletik, Trampolin, Turnen, Pickleball, Soma</p>
                                 </li>
-                                <li data-pg-collapsed class="tmg--outer-b-1">
+                                <li class="tmg--outer-b-1">
                                     <p>* mit Abteilungsbeitrag!</p>
                                 </li>
-                                <li data-pg-collapsed>
+                                <li>
                                     <p>* Es werden nur Jahresbeiträge eingezogen.</p>
                                 </li>                                 
                             </ul>
                         </div>
                     </article>
-                    <article data-pg-name="Aktive" class="tmg--inner-1" data-pg-collapsed>
+                    <article data-pg-name="Aktive" class="tmg--inner-1">
                         <div class="plan2">
                             <div class="header tmg--inner-2 tmg--outer-b-1">Aktive 
                                 <br>ab 18 Jahren
@@ -349,12 +362,12 @@
                                     <p>* mit Abteilungsbeitrag!</p>
                                 </li>
                                 <li>
-                                    <p>Es werden nur Jahresbeiträge eingezogen.</p>
+                                    <p>* Es werden nur Jahresbeiträge eingezogen.</p>
                                 </li>                                 
                             </ul>
                         </div>
                     </article>
-                    <article data-pg-name="Seniorinnen" class="tmg--inner-1" data-pg-collapsed>
+                    <article data-pg-name="Seniorinnen" class="tmg--inner-1">
                         <div class="plan3">
                             <div class="header tmg--inner-2 tmg--outer-b-1">Seniorinnen 
                                 <br>ab 55 Jahren
@@ -370,7 +383,7 @@
                                 <li>
                                     <p>Faustball, Fechten, Handball, Judo*, Karate*, Kick–Boxen, Leichtathletik, Trampolin, Turnen, Pickleball, Soma</p>
                                 </li>
-                                <li data-pg-collapsed class="tmg--outer-b-1">
+                                <li class="tmg--outer-b-1">
                                     <p>* mit Abteilungsbeitrag!</p>
                                 </li>
                                 <li>
@@ -379,8 +392,8 @@
                             </ul>
                         </div>
                     </article>
-                    <article data-pg-name="Senioren" class="tmg--inner-1" data-pg-collapsed>
-                        <div data-pg-collapsed class="plan4">
+                    <article data-pg-name="Senioren" class="tmg--inner-1">
+                        <div class="plan4">
                             <div class="header tmg--inner-2 tmg--outer-b-1">Senioren 
                                 <br>ab 60 Jahre
                             </div>
@@ -405,14 +418,14 @@
                         </div>
                     </article>
                 </div>
-                <div class="tmg--inner-l-1 tmg__module--Flex" data-pg-collapsed>
+                <div class="tmg--inner-l-1 tmg__module--Flex">
                     <article>
-                        <h3 class="blue-text text-darken-3">Familien</h3>
+                        <h3 class="blue-text text-darken-3 tmg--outer-b-1">Familien</h3>
                     </article>
                 </div>
-                <div class="pricing-table tmg-three-1100 tmg__module--Flex tmg__text-justifyCenter" data-pg-name="Familien" data-pg-collapsed>
+                <div class="pricing-table tmg-three-1100 tmg__module--Flex tmg__text-justifyCenter" data-pg-name="Familien">
                     <article data-pg-name="Aktiver + Kind" class="tmg--inner-1">
-                        <div class="plan5" data-pg-collapsed>
+                        <div class="plan5">
                             <div class="header tmg--inner-2 tmg--outer-b-1">Familienbeitrag 
                                 <br>1 Aktiver und 1 Kind*
                             </div>
@@ -427,20 +440,20 @@
                                 <li>
                                     <p>Faustball, Fechten, Handball, Judo*, Karate*, Kick–Boxen, Leichtathletik, Trampolin, Turnen, Pickleball, Soma</p>
                                 </li>
-                                <li data-pg-collapsed class="tmg--outer-b-1">
+                                <li class="tmg--outer-b-1">
                                     <p>* mit Abteilungsbeitrag!</p>
                                 </li>
-                                <li data-pg-collapsed>
+                                <li>
                                     <p>* Jedes weitere Kind ist beitragsfrei!</p>
                                 </li>
-                                <li data-pg-collapsed>
+                                <li>
                                     <p>* Es werden nur Jahresbeiträge eingezogen.</p>
                                 </li>                                 
                             </ul>
                         </div>
                     </article>
                     <article class="tmg--inner-1" data-pg-name="Ehepaar">
-                        <div class="plan6" data-pg-collapsed>
+                        <div class="plan6">
                             <div class="header tmg--inner-2 tmg--outer-b-1">Familienbeitrag 
                                 <br>2 Aktive/Ehepaar
                             </div>
@@ -455,10 +468,10 @@
                                 <li>
                                     <p>Faustball, Fechten, Handball, Judo*, Karate*, Kick–Boxen, Leichtathletik, Trampolin, Turnen, Pickleball, Soma</p>
                                 </li>
-                                <li data-pg-collapsed class="tmg--outer-b-1">
+                                <li class="tmg--outer-b-1">
                                     <p>* mit Abteilungsbeitrag!</p>
                                 </li>
-                                <li data-pg-collapsed>
+                                <li>
                                     <p>* Jedes weitere Kind ist beitragsfrei!</p>
                                 </li>
                                 <li>
@@ -497,15 +510,15 @@
                     </article>
                 </div>
             </section>
-            <div data-pg-name="Lauftag" class="blue-grey lighten-5" data-pg-collapsed>
-                <section data-pg-name="Lauftag" aria-label="Lauftag" data-scroll-index="4" data-pg-collapsed class="tmg__area">
+            <div data-pg-name="Lauftag" class="blue-grey lighten-5" data-scroll-index="5" data-pg-collapsed>
+                <section data-pg-name="Lauftag" aria-label="Lauftag" class="tmg__area">
                     <div class="tmg-two tmg__module--Flex">
                         <article style="display: flex; background-repeat: no-repeat; background-position: center top;">
                             <img src="img/lauf.jpg"/>
                         </article>
                         <article class="tmg--inner-2">
                             <h3 class="blue-text text-darken-3 tmg--outer-b-1">Oberndorfer Lauftag</h3>
-                            <p class="tmg--outer-b-1">Seit 2008 gibt es den Oberndorfer Lauftag. Der Turnverein Oberndorf 1861 e. V. organisiert dieses Sportereignis zusammen mit dem Amt für Kultur, Bildung, Jugend und Sport  dieses jeweils Anfang Mai. </p>
+                            <p class="tmg--outer-b-1">Seit 2008 gibt es den Oberndorfer Lauftag. Der Turnverein Oberndorf 1861 e. V. organisiert dieses Sportereignis zusammen mit dem Amt für Kultur, Bildung, Jugend und Sport - dieses jeweils Anfang Mai.</p>
                             <p class="tmg--outer-b-1">In einem Halbmarathon, einem Fitnesslauf (10,5 km) und einem Schülerlauf (1,5 km) können sich die Sportlerinnen und Sportler messen. Bis zu 600 Teilnehmer nehmen an diesen Läufen teil. Die Halbmarathonstrecke ist zertifiziert.</p>
                             <p>Aufgrund der Coronakrise konnte der Lauftag 2020 leider nicht stattfinden.</p>
                         </article>
@@ -524,7 +537,7 @@
             </section>
         </main>
         <footer data-pgc-define="global-footer" data-pgc-define-description="We use one maintainable footer element " data-pgc-define-name="Projects Footer" data-pgc-define-photo-preview-only>
-            <section class="blue-grey darken-2 tmg__text-justifyCenter" data-pg-name="Kontakt" data-scroll-index="18" data-pg-collapsed>
+            <section class="blue-grey darken-2 tmg__text-justifyCenter" data-pg-name="Kontakt" data-scroll-index="18">
                 <div class="tmg__area--width">
                     <div class="tmg-two tmg-two-700 tmg__module--Flex">
                         <div class="tmg--inner-2">
@@ -542,42 +555,25 @@
                             <div class="white tmg--center box-hover tmg--inner-2" data-pgc-edit="Ansprechpartner" data-pgc-edit-types="global-footer">
                                 <i class="fa fa-home fa-lg tmg--outer-b-2"></i>
                                 <p class="text-darken-3 tmg--outer-b-2 yellow-text">Geschäftsstelle</p>
-                                <p class="text-reduced tmg--outer-b-1" data-pg-collapsed>Die TVO-Geschäftsstelle ist Mittwochs <br>von 18.00 - 19.30 Uhr geöffnet.</p>
+                                <p class="text-reduced tmg--outer-b-1">Die TVO-Geschäftsstelle ist Mittwochs <br>von 18.00 - 19.30 Uhr geöffnet.</p>
                                 <p class="text-reduced"><a href="javascript:location='mailto:\u0074\u0076\u002d\u006f\u0062\u0065\u0072\u006e\u0064\u006f\u0072\u0066\u0040\u0073\u006d\u0074\u002d\u006f\u006e\u006c\u0069\u006e\u0065\u002e\u0064\u0065';void 0">e-Mail an den TVO</a><br>&nbsp;</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="tmg--inner-2 blue-grey darken-4" data-pg-name="Sitemap" data-pg-collapsed data-scroll-index="19">
+            <section class="tmg--inner-2 blue-grey darken-4" data-pg-name="Sitemap" data-scroll-index="19">
                 <div class="tmg__area--width">
                     <h2 class="tmg--inner-lr-1 blue-grey-text tmg--outer-b-1 text-lighten-1">Sitemap</h2>
                     <p class="tmg--inner-lr-1 blue-grey-text tmg--outer-b-1 text-lighten-1">Finden Sie hier alle relevanten und zu unserem Webauftritt zugehörige Seiten und Links</p>
                     <div class="sitemap-if-dark tmg__module--Flex tmg-one tmg-two-900 tmg-four-1200">
                         <div class="tmg--inner-1" data-pg-name="Grid-1">
                             <ul>
-                                <li>
+                                <li data-pg-collapsed>
                                     <a>Home</a>
                                 </li>
                                 <li>
-                                    <a href="#">Sitemaplink-2</a>
-                                </li>
-                                <li>
-                                    <a href="#">Sitemaplink-3</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="tmg--inner-1" data-pg-name="Grid-2">
-                            <ul>
-                                <li data-pg-name="List Title" class="sitemap-if-dark-title">Unser Sport:</li>
-                                <li>
-                                    <a href="fechten.html">Fechten</a>
-                                </li>
-                                <li>
-                                    <a href="#">Sitemaplink-2-1</a>
-                                </li>
-                                <li>
-                                    <a href="#">Sitemaplink-3-1</a>
+                                    <a>Downloads</a>
                                 </li>
                             </ul>
                         </div>
@@ -606,7 +602,7 @@
                 </div>
             </section>
             <p class="black blue-grey-text darken-4 text-lighten-4 tmg--inner-2 tmg__copyright" data-pg-name="Copyright">&copy; Turnverein Oberndorf 1861 e.V. - Alle Rechte vorbehalten</p>
-            <a href="#" class="show back-to-top" title="Back to top" data-pg-collapsed><i class="fa fa-chevron-up"></i></a>
+            <a href="#" class="show back-to-top" title="Back to top"><i class="fa fa-chevron-up"></i></a>
         </footer>
         <!-- TheMagicScript has jQuery included by default -->
         <script type="text/javascript" src="js/themagicscript-min.js"></script>
