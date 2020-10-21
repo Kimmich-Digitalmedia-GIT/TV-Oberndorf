@@ -450,3 +450,100 @@ h6 {
     -moz-box-shadow: 0px 7px 0px 0px #f9a825;
     box-shadow: 0px 7px 0px 0px #f9a825;
 }
+
+/* Inline Styles turned to classes 
+   ------------------------------------------------------------------------------- */
+/* index.html */
+.header-padding_top {
+    padding-top: 62px;
+}
+
+.center-content_flex--column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-content_flex--row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-illustration_flex {
+    display: flex;
+    align-items: center;
+}
+
+/* --------------- */
+.pricing-table .header {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    border-bottom: 8px solid;
+    background-color: #eee;
+    background-image: linear-gradient(#fff, #eee);
+}
+
+.pricing-table .plan1 .header {
+    border-bottom-color: #B3E03F;
+}
+
+.pricing-table .plan2 .header {
+    border-bottom-color: #7BD553;
+}
+
+.pricing-table .plan3 .header {
+    border-bottom-color: #3AD5A0;
+}
+
+.pricing-table .plan4 .header {
+    border-bottom-color: #45D0DA;
+}
+
+.pricing-table .plan5 .header {
+    border-bottom-color: #c49000;
+}
+
+.pricing-table .plan6 .header {
+    border-bottom-color: #fbc02d;
+}
+
+.pricing-table .plan7 .header {
+    border-bottom-color: #ffeb3b;
+}
+
+/* --------------- */
+.pricing-table .price {
+    font-size: 45px;
+}
+
+.pricing-table .monthly {
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #999;
+}
+
+/* --------------- */
+.pricing-table ul {
+    list-style: none;
+}
+
+.circular-shape {
+    width: 175px;
+    height: 175px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+}
+
+.fa-icon-adjust {
+    line-height: 175px !important;
+}
